@@ -1,8 +1,36 @@
 {
   "items": [
-    { "id": "p1", "tag": "Seram", "name": "Centella Repair Ampoule", "desc": "Tinchlantiruvchi va tiklovchi kunlik seram", "price": 185000, "art": "art-1" },
-    { "id": "p2", "tag": "Toner", "name": "Rice Glow Toner", "desc": "Yaltirash va yumshoqlik uchun sholi ekstrakti bilan", "price": 142000, "art": "art-2" },
-    { "id": "p3", "tag": "Krem", "name": "Ginseng Vital Cream", "desc": "Elastiklikni tiklovchi yosh partiya kremi", "price": 210000, "art": "art-3" },
-    { "id": "p4", "tag": "Niqob", "name": "Hyaluron Sheet Mask", "desc": "10 donalik chuqur namlovchi niqoblar to'plami", "price": 98000, "art": "art-4" }
+    {
+      "id": "p1",
+      "tag": "Seram",
+      "name": "Centella Repair Ampoule",
+      "desc": "Tinchlantiruvchi va tiklovchi kunlik seram",
+      "price": 200000,
+      "art": "art-1"
+    },
+    {
+      "id": "p2",
+      "tag": "Toner",
+      "name": "Rice Glow Toner",
+      "desc": "Yaltirash va yumshoqlik uchun sholi ekstrakti bilan",
+      "price": 142000,
+      "art": "art-2"
+    },
+    {
+      "id": "p3",
+      "tag": "Krem",
+      "name": "Ginseng Vital Cream",
+      "desc": "Elastiklikni tiklovchi yosh partiya kremi",
+      "price": 210000,
+      "art": "art-3"
+    },
+    {
+      "id": "p4",
+      "tag": "Niqob",
+      "name": "Hyaluron Sheet Mask",
+      "desc": "10 donalik chuqur namlovchi niqoblar to'plami",
+      "price": 98000,
+      "art": "art-4"
+    }
   ]
 }
