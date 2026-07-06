@@ -10,13 +10,14 @@ collections:
     label: "Mahsulotlar"
     files:
       - file: "products.json"
-        label: "Mahsulotlar ro'yxati"
+        label: "Mahsulotlar royxati"
         name: "products"
         fields:
           - { label: "Mahsulotlar", name: "items", widget: "list", fields: [
               { label: "ID", name: "id", widget: "string" },
-              { label: "Turkum (masalan: Seram, Toner)", name: "tag", widget: "string" },
+              { label: "Turkum (masalan Seram, Toner)", name: "tag", widget: "string" },
               { label: "Nomi", name: "name", widget: "string" },
               { label: "Tavsif", name: "desc", widget: "string" },
-              { label: "Narx (so'mda, faqat raqam)", name: "price", widget: "number" },
-              { label: "Rang u
+              { label: "Narx som, faqat raqam", name: "price", widget: "number" },
+              { label: "Rang uslubi", name: "art", widget: "select", options: ["art-1","art-2","art-3","art-4"] }
+            ]}
