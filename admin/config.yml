@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "products"
+    label: "Mahsulotlar"
+    files:
+      - file: "products.json"
+        label: "Mahsulotlar ro'yxati"
+        name: "products"
+        fields:
+          - { label: "Mahsulotlar", name: "items", widget: "list", fields: [
+              { label: "ID", name: "id", widget: "string" },
+              { label: "Turkum (masalan: Seram, Toner)", name: "tag", widget: "string" },
+              { label: "Nomi", name: "name", widget: "string" },
+              { label: "Tavsif", name: "desc", widget: "string" },
+              { label: "Narx (so'mda, faqat raqam)", name: "price", widget: "number" },
+              { label: "Rang u
