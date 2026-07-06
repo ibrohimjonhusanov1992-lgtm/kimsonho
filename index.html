@@ -6,6 +6,7 @@
 <title>CHEONGJA — Koreya kosmetikasi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <style>
   :root{
     --celadon: #A8C3B0;
@@ -567,6 +568,14 @@
   }
 
   loadProducts();
+
+  if (window.netlifyIdentity) {
+    netlifyIdentity.on('init', user => {
+      if (!user) {
+        netlifyIdentity.on('login', () => { document.location.href = '/admin/'; });
+      }
+    });
+  }
 </script>
 </body>
 </html>
