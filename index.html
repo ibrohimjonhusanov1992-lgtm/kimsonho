@@ -47,6 +47,23 @@
   .logo-mark.large .crescent-1{clip-path: path('M32,0 A32,32 0 0,1 32,64 A44,44 0 0,0 32,0 Z');}
   .logo-mark.large .crescent-2{clip-path: path('M32,0 A32,32 0 0,0 32,64 A44,44 0 0,1 32,0 Z');}
 
+  /* PROMO BANNER */
+  .promo-bar{
+    background:var(--jade); color:var(--porcelain);
+    text-align:center; padding:8px 16px; font-size:13px; letter-spacing:0.5px;
+    overflow:hidden; display:flex; align-items:center; justify-content:center; gap:10px;
+  }
+  .promo-bar img{
+    width:28px; height:28px; border-radius:4px; object-fit:cover; flex-shrink:0;
+  }
+  .promo-bar span{
+    display:inline-block; animation:promoFade 0.5s ease;
+  }
+  @keyframes promoFade{
+    0%{opacity:0; transform:translateY(4px);}
+    100%{opacity:1; transform:translateY(0);}
+  }
+
   /* NAV */
   nav{
     position:sticky; top:0; z-index:50;
@@ -354,6 +371,8 @@
 </head>
 <body>
 
+<div class="promo-bar" id="promoBar"><img id="promoImg" style="display:none;" alt=""><span id="promoText"></span></div>
+
 <nav>
   <button class="menu-btn" onclick="toggleMenu()" aria-label="Menyu">
     <span></span><span></span><span></span>
@@ -437,7 +456,7 @@
 </div>
 
 <section class="hero">
-  <div class="hero-eyebrow">Koreakosmetika &nbsp;·&nbsp; Seul &nbsp;·&nbsp; Toshkent</div>
+  <div class="hero-eyebrow">Koreakosmetika &nbsp;·&nbsp; Seul</div>
   <h1>Koreya go'zallik sirlari, endi Uzbekistonda</h1>
   <p>Original K-beauty mahsulotlari — teriga g'amxo'rlik qiluvchi formulalar, to'g'ridan-to'g'ri Janubiy Koreyadan yetkazib beriladi.</p>
   <div class="hero-actions">
@@ -765,6 +784,52 @@
   }
 
   loadProducts();
+
+  /* PROMO BANNER ROTATION */
+  const DEFAULT_PROMO = [
+    { text: "Birinchi buyurtmaga 10% chegirma", image: "" },
+    { text: "2 ta mahsulot olsangiz — yetkazib berish bepul", image: "" },
+    { text: "Toshkent bo'ylab 1-2 kunda yetkazib beramiz", image: "" }
+  ];
+  let PROMO_ITEMS = DEFAULT_PROMO;
+  let promoIndex = 0;
+  let promoTimer = null;
+
+  function rotatePromo(){
+    const textEl = document.getElementById('promoText');
+    const imgEl = document.getElementById('promoImg');
+    const item = PROMO_ITEMS[promoIndex];
+
+    textEl.style.animation = 'none';
+    imgEl.style.animation = 'none';
+    textEl.offsetHeight;
+    textEl.style.animation = 'promoFade 0.5s ease';
+    imgEl.style.animation = 'promoFade 0.5s ease';
+
+    textEl.textContent = item.text;
+    if(item.image){
+      imgEl.src = item.image;
+      imgEl.style.display = 'block';
+    } else {
+      imgEl.style.display = 'none';
+    }
+    promoIndex = (promoIndex + 1) % PROMO_ITEMS.length;
+  }
+
+  async function loadPromo(){
+    try{
+      const res = await fetch('/promo.json', { cache: 'no-store' });
+      const data = await res.json();
+      if(data.items && data.items.length) PROMO_ITEMS = data.items;
+    }catch(err){
+      PROMO_ITEMS = DEFAULT_PROMO;
+    }
+    rotatePromo();
+    if(promoTimer) clearInterval(promoTimer);
+    promoTimer = setInterval(rotatePromo, 4000);
+  }
+
+  loadPromo();
 
   if (window.netlifyIdentity) {
     netlifyIdentity.on('init', user => {
