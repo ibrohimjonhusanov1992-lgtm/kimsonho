@@ -1,29 +1,7 @@
 {
   "items": [
-    {
-      "id": "p2",
-      "tag": "Toner",
-      "name": "Rice Glow Toner",
-      "desc": "Yaltirash va yumshoqlik uchun sholi ekstrakti bilan",
-      "price": 200000,
-      "art": "art-2"
-    },
-    {
-      "id": "p3",
-      "tag": "Krem",
-      "name": "Ginseng Vital Cream",
-      "desc": "Elastiklikni tiklovchi yosh partiya kremi",
-      "price": 200000,
-      "art": "art-3"
-    },
-    {
-      "id": "p4",
-      "tag": "Milliy taom",
-      "name": "Jizzax somsa",
-      "desc": "Jizzax somsani yemabsiz bu dunyoga kelmapsiz",
-      "price": 200000,
-      "art": "art-4",
-      "image1": "/uploads/img_9452.jpeg"
-    }
+    { "text": "Birinchi buyurtmaga 10% chegirma", "image": "" },
+    { "text": "2 ta mahsulot olsangiz - yetkazib berish bepul", "image": "" },
+    { "text": "Toshkent boylab 1-2 kunda yetkazib beramiz", "image": "" }
   ]
 }
