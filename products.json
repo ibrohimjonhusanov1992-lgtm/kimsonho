@@ -1,14 +1,6 @@
 {
   "items": [
     {
-      "id": "p1",
-      "tag": "Seram",
-      "name": "Centella Repair Ampoule",
-      "desc": "Tinchlantiruvchi va tiklovchi kunlik seram",
-      "price": 200000,
-      "art": "art-1"
-    },
-    {
       "id": "p2",
       "tag": "Toner",
       "name": "Rice Glow Toner",
@@ -26,11 +18,12 @@
     },
     {
       "id": "p4",
-      "tag": "Niqob",
-      "name": "Hyaluron Sheet Mask",
-      "desc": "10 donalik chuqur namlovchi niqoblar to'plami",
+      "tag": "Milliy taom",
+      "name": "Jizzax somsa",
+      "desc": "Jizzax somsani yemabsiz bu dunyoga kelmapsiz",
       "price": 200000,
-      "art": "art-4"
+      "art": "art-4",
+      "image1": "/uploads/img_9452.jpeg"
     }
   ]
 }
