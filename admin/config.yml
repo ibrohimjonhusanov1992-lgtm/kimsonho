@@ -44,11 +44,4 @@ collections:
                 name: image1
                 widget: image
                 required: false
-              - label: Rasm 2
-                name: image2
-                widget: image
-                required: false
-              - label: Rasm 3
-                name: image3
-                widget: image
-                required: false
+              - label:
