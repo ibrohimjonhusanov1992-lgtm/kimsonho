@@ -17,7 +17,5 @@ collections:
               { label: "ID", name: "id", widget: "string" },
               { label: "Turkum (masalan Seram, Toner)", name: "tag", widget: "string" },
               { label: "Nomi", name: "name", widget: "string" },
-              { label: "Tavsif", name: "desc", widget: "string" },
-              { label: "Narx som, faqat raqam", name: "price", widget: "number" },
-              { label: "Rang uslubi", name: "art", widget: "select", options: ["art-1","art-2","art-3","art-4"] }
-            ]}
+              { label: "Qisqa tavsif", name: "desc", widget: "string" },
+              { label: "Batafs
