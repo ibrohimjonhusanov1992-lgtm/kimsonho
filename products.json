@@ -26,11 +26,12 @@
     },
     {
       "id": "p4",
-      "tag": "Niqob",
-      "name": "Hyaluron Sheet Mask",
-      "desc": "10 donalik chuqur namlovchi niqoblar to'plami",
+      "tag": "milliy taomlar",
+      "name": "Jizzax somsa",
+      "desc": "Jizzax somsa yemabsiz bu dunyoga kelmapsiz",
       "price": 98000,
-      "art": "art-4"
+      "art": "art-4",
+      "image1": "/uploads/img_9452.jpeg"
     }
   ]
 }
