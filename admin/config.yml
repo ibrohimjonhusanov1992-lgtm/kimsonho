@@ -2,20 +2,53 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "uploads"
-public_folder: "/uploads"
+media_folder: uploads
+public_folder: /uploads
 
 collections:
-  - name: "products"
-    label: "Mahsulotlar"
+  - name: products
+    label: Mahsulotlar
     files:
-      - file: "products.json"
-        label: "Mahsulotlar royxati"
-        name: "products"
+      - file: products.json
+        label: Mahsulotlar royxati
+        name: products
         fields:
-          - { label: "Mahsulotlar", name: "items", widget: "list", fields: [
-              { label: "ID", name: "id", widget: "string" },
-              { label: "Turkum (masalan Seram, Toner)", name: "tag", widget: "string" },
-              { label: "Nomi", name: "name", widget: "string" },
-              { label: "Qisqa tavsif", name: "desc", widget: "string" },
-              { label: "Batafs
+          - label: Mahsulotlar
+            name: items
+            widget: list
+            fields:
+              - label: ID
+                name: id
+                widget: string
+              - label: Turkum masalan Seram yoki Toner
+                name: tag
+                widget: string
+              - label: Nomi
+                name: name
+                widget: string
+              - label: Qisqa tavsif
+                name: desc
+                widget: string
+              - label: Batafsil tavsif
+                name: details
+                widget: text
+                required: false
+              - label: Narx som faqat raqam
+                name: price
+                widget: number
+              - label: Rang uslubi
+                name: art
+                widget: select
+                options: [art-1, art-2, art-3, art-4]
+              - label: Rasm 1
+                name: image1
+                widget: image
+                required: false
+              - label: Rasm 2
+                name: image2
+                widget: image
+                required: false
+              - label: Rasm 3
+                name: image3
+                widget: image
+                required: false
