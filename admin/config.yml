@@ -6,6 +6,25 @@ media_folder: uploads
 public_folder: /uploads
 
 collections:
+  - name: promo
+    label: Aksiyalar
+    files:
+      - file: promo.json
+        label: Tepadagi aksiya xabarlari
+        name: promo
+        fields:
+          - label: Aksiyalar royxati
+            name: items
+            widget: list
+            fields:
+              - label: Matn
+                name: text
+                widget: string
+              - label: Rasm
+                name: image
+                widget: image
+                required: false
+
   - name: products
     label: Mahsulotlar
     files:
@@ -44,4 +63,11 @@ collections:
                 name: image1
                 widget: image
                 required: false
-              - label:
+              - label: Rasm 2
+                name: image2
+                widget: image
+                required: false
+              - label: Rasm 3
+                name: image3
+                widget: image
+                required: false
