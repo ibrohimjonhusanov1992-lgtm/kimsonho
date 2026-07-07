@@ -112,6 +112,18 @@
   .detail-desc{font-size:16px; line-height:1.7; opacity:0.8; font-weight:300; white-space:pre-line;}
   .detail-price{font-family:'Marcellus',serif; font-size:24px; color:var(--jade); margin:20px 0 16px;}
 
+  /* LIGHTBOX */
+  .lightbox{
+    position:fixed; inset:0; background:rgba(0,0,0,0.9); z-index:300;
+    display:none; align-items:center; justify-content:center; padding:20px;
+  }
+  .lightbox.open{display:flex;}
+  .lightbox img{max-width:100%; max-height:100%; object-fit:contain;}
+  .lightbox-close{
+    position:absolute; top:20px; right:20px; background:none; border:none;
+    color:#fff; font-size:28px; cursor:pointer;
+  }
+
   /* HERO */
   .hero{
     position:relative;
@@ -404,7 +416,9 @@
     <input type="text" id="custPhone" class="cart-input" placeholder="+998 90 000 00 00">
     <label class="cart-label">Manzil</label>
     <input type="text" id="custAddress" class="cart-input" placeholder="Shahar, ko'cha, uy">
-    <button id="telegramOrder" onclick="sendOrder()" class="btn-primary" style="display:block; width:100%; text-align:center; margin-top:16px; border:none; cursor:pointer; font-family:'Jost';">Buyurtma berish</button>
+    <div style="border:2px solid var(--jade); border-radius:6px; padding:12px; margin-top:20px; background:rgba(61,90,76,0.05);">
+      <button id="telegramOrder" onclick="sendOrder()" class="btn-primary" style="display:block; width:100%; text-align:center; border:none; cursor:pointer; font-family:'Jost';">Buyurtma berish</button>
+    </div>
     <p id="orderStatus" style="font-size:13px; margin-top:10px; text-align:center;"></p>
   </div>
 </div>
@@ -414,6 +428,12 @@
 <div class="detail-panel" id="detailPanel">
   <button class="cart-close" onclick="closeProductDetail()" style="position:absolute; top:16px; right:16px; z-index:2; background:var(--porcelain); border-radius:50%; width:34px; height:34px;">✕</button>
   <div id="detailContent"></div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightboxImg" src="" alt="">
 </div>
 
 <section class="hero">
@@ -582,12 +602,12 @@
     const images = [p.image1, p.image2, p.image3].filter(Boolean);
 
     const mainImgHtml = images.length
-      ? `<img id="detailMainImg" src="${images[0]}" alt="${p.name}">`
+      ? `<img id="detailMainImg" src="${images[0]}" alt="${p.name}" onclick="openLightbox('${images[0]}')" style="cursor:zoom-in;">`
       : `<div class="card-art ${p.art || 'art-1'}" style="width:100%; height:100%;"><div class="bottle"></div></div>`;
 
     const thumbsHtml = images.length > 1 ? `
       <div class="detail-thumbs">
-        ${images.map((img,i) => `<img src="${img}" onclick="document.getElementById('detailMainImg').src='${img}'" class="${i===0?'active':''}">`).join('')}
+        ${images.map((img,i) => `<img src="${img}" onclick="setMainImage('${img}')" class="${i===0?'active':''}">`).join('')}
       </div>` : '';
 
     document.getElementById('detailContent').innerHTML = `
@@ -608,6 +628,19 @@
   function closeProductDetail(){
     document.getElementById('detailOverlay').classList.remove('open');
     document.getElementById('detailPanel').classList.remove('open');
+  }
+
+  function setMainImage(src){
+    document.getElementById('detailMainImg').src = src;
+  }
+
+  function openLightbox(src){
+    document.getElementById('lightboxImg').src = src;
+    document.getElementById('lightbox').classList.add('open');
+  }
+
+  function closeLightbox(){
+    document.getElementById('lightbox').classList.remove('open');
   }
 
   function addToCart(id, e){
