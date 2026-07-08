@@ -32,6 +32,16 @@
       "price": 98000,
       "art": "art-4",
       "image1": "/uploads/img_9452.jpeg"
+    },
+    {
+      "id": "p5",
+      "tag": "milliy taomlar",
+      "name": "Qurtoba",
+      "desc": "Qurt,gosht,non",
+      "details": "o'zgacha tam",
+      "price": 100000,
+      "art": "art-1",
+      "image1": "/uploads/img_9005.jpeg"
     }
   ]
 }
