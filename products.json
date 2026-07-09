@@ -36,7 +36,8 @@
       "name": "Niacinamide Pore Serum",
       "desc": "Teri teshiklarini toraytiruvchi va yog'ni nazorat qiluvchi seram",
       "price": 160000,
-      "art": "art-4"
+      "art": "art-4",
+      "image1": "/uploads/img_9574.jpeg"
     },
     {
       "id": "p5",
