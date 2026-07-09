@@ -63,7 +63,8 @@
       "name": "Green Tea Balancing Toner",
       "desc": "Terining moy balansini tiklovchi yashil choy toneri",
       "price": 135000,
-      "art": "art-3"
+      "art": "art-3",
+      "image1": "/uploads/img_9585.png"
     },
     {
       "id": "p8",
