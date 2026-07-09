@@ -19,7 +19,7 @@
     --jade: #3D5A4C;
     --blush: #E8C4C4;
     --ink: #232920;
-    --porcelain: #F7F5EF;
+    --porcelain: #FFFFFF;
     --gold: #C9A66B;
     --olive: #7CB518;
     --olive-dark: #5C8A0F;
@@ -258,15 +258,13 @@
   .product-row .stars{font-size:9px;}
   .product-row .stars .count{font-size:8px; margin-left:2px;}
   .product-row .price{font-size:12px; font-weight:600;}
-  .product-row .old-price{font-size:9px; margin-right:2px;}
-  .product-row .discount-pct{font-size:11px; margin-right:2px;}
-  .product-row .price-block{gap:1px;}
+  .product-row .old-price{font-size:9px; margin-right:3px;}
   .product-row .card-art{height:110px;}
   .product-row .bottle{width:32px; height:64px;}
   .product-row .like-btn{width:24px; height:24px; font-size:12px; top:6px; right:6px;}
   .product-row .sale-flag{font-size:10px; padding:2px 5px; top:6px; left:6px;}
   .product-row .rank-badge{width:20px; height:20px; font-size:12px; top:34px; left:6px;}
-  .tag-stars-row{display:flex; justify-content:space-between; align-items:center; gap:3px; line-height:1;}
+  .tag-stars-row{display:flex; flex-direction:column-reverse; align-items:flex-start; gap:2px; line-height:1;}
   @media (min-width:641px){
     .product-row .card{width:calc((100% - 56px) / 4.5);}
   }
@@ -295,15 +293,13 @@
   }
   .rank-badge{top:44px;}
   .old-price{
-    text-decoration:line-through; font-size:12px; opacity:0.45; margin-right:4px;
+    text-decoration:line-through; font-size:11px; opacity:0.45; margin-right:5px;
   }
-  .discount-pct{
-    color:var(--sale-red); font-weight:600; font-size:13px; margin-right:4px;
-  }
-  .price-block{display:flex; align-items:center; flex-wrap:wrap; gap:2px;}
+  .price-line{display:flex; align-items:baseline; gap:5px; white-space:nowrap; overflow:hidden;}
+  .disc-pct{color:var(--sale-red); font-weight:700; font-size:12px;}
 
   /* PRODUCTS */
-  .products{background:linear-gradient(180deg, var(--porcelain), #EFEBE0);}
+  .products{background:linear-gradient(180deg, var(--porcelain), #FAFAF8);}
   .product-grid{
     display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:16px;
   }
@@ -615,6 +611,14 @@
   <button class="chip" onclick="filterProducts('Niqob', event)">Niqob</button>
 </div>
 
+<section class="products" id="products">
+  <div class="section-head">
+    <div class="eyebrow">Bestseller</div>
+    <h2>Tanlangan mahsulotlar</h2>
+  </div>
+  <div id="productGrid"></div>
+</section>
+
 <section class="ritual" id="ritual">
   <div class="section-head">
     <div class="eyebrow">Koreyacha parvarish tartibi</div>
@@ -647,14 +651,6 @@
       <p>Namlikni saqlab qoluvchi va terini himoya qiluvchi yakuniy qatlam.</p>
     </div>
   </div>
-</section>
-
-<section class="products" id="products">
-  <div class="section-head">
-    <div class="eyebrow">Bestseller</div>
-    <h2>Tanlangan mahsulotlar</h2>
-  </div>
-  <div id="productGrid"></div>
 </section>
 
 <section class="why" id="why">
@@ -842,14 +838,9 @@
   function priceHtml(p){
     if(p.discount && p.discount > 0){
       const newPrice = Math.round(p.price * (100 - p.discount) / 100 / 1000) * 1000;
-      return `
-        <div class="price-block">
-          <span class="old-price">${p.price.toLocaleString('ru-RU')}</span>
-          <span class="discount-pct">-${p.discount}%</span>
-          <span class="price">${newPrice.toLocaleString('ru-RU')} so'm</span>
-        </div>`;
+      return `<div class="price-line"><span class="old-price">${p.price.toLocaleString('ru-RU')}</span><span class="price">${newPrice.toLocaleString('ru-RU')}</span><span class="disc-pct">${p.discount}%</span></div>`;
     }
-    return `<span class="price">${p.price.toLocaleString('ru-RU')} so'm</span>`;
+    return `<div class="price-line"><span class="price">${p.price.toLocaleString('ru-RU')} so'm</span></div>`;
   }
 
   function renderCard(p, i){
@@ -861,10 +852,7 @@
         ${p.discount ? `<div class="sale-flag">-${p.discount}%</div>` : ''}
         <button class="like-btn ${likes[p.id] ? 'liked' : ''}" onclick="toggleLike('${p.id}', event)">♥</button>
         <div class="card-body">
-          <div class="tag-stars-row">
-            <span class="card-tag">${p.tag}</span>
-            <span class="stars">${starsHtml(rating)}<span class="count">${rating.toFixed(1)}</span></span>
-          </div>
+          <div class="stars">${starsHtml(rating)}<span class="count">${rating.toFixed(1)}</span></div>
           <h3>${p.name}</h3>
           ${priceHtml(p)}
         </div>
@@ -920,7 +908,7 @@
         <h2>${p.name}</h2>
         <div class="detail-stars">${interactiveStars} <span style="font-size:13px; opacity:0.6;">${myR ? 'Sizning bahoyingiz' : shownR.toFixed(1)}</span></div>
         <p class="detail-desc">${p.details || p.desc}</p>
-        <div class="detail-price">${p.discount ? `<span class="old-price" style="font-size:16px;">${p.price.toLocaleString('ru-RU')}</span> <span class="discount-pct">-${p.discount}%</span> ` : ''}${effectivePrice(p).toLocaleString('ru-RU')} so'm</div>
+        <div class="detail-price">${p.discount ? `<span class="old-price" style="font-size:16px;">${p.price.toLocaleString('ru-RU')}</span> <span style="color:var(--sale-red); font-weight:600; font-size:15px; margin-right:4px;">-${p.discount}%</span> ` : ''}${effectivePrice(p).toLocaleString('ru-RU')} so'm</div>
         <div class="cart-cta-frame">
           <button class="cart-cta-btn" onclick="addToCartQuiet('${p.id}')">
             <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
