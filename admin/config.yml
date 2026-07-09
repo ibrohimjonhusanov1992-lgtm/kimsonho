@@ -6,6 +6,46 @@ media_folder: uploads
 public_folder: /uploads
 
 collections:
+  - name: banners
+    label: Bannerlar
+    files:
+      - file: banners.json
+        label: Tepadagi banner slaydlari
+        name: banners
+        fields:
+          - label: Slaydlar
+            name: items
+            widget: list
+            fields:
+              - label: Nishon matni masalan YANGI yoki -10%
+                name: badge
+                widget: string
+                required: false
+              - label: Kichik sarlavha
+                name: eyebrow
+                widget: string
+                required: false
+              - label: Katta sarlavha
+                name: title
+                widget: string
+              - label: Qisqa matn
+                name: subtitle
+                widget: string
+                required: false
+              - label: Tugma matni
+                name: button
+                widget: string
+                required: false
+              - label: Fon rasmi, yuklasangiz butun bannerni qoplaydi
+                name: image
+                widget: image
+                required: false
+              - label: Fon rangi agar rasm bolmasa
+                name: color
+                widget: select
+                options: [green, olive, gold]
+                required: false
+
   - name: products
     label: Mahsulotlar
     files:
@@ -36,6 +76,10 @@ collections:
               - label: Narx som faqat raqam
                 name: price
                 widget: number
+              - label: Chegirma foizi masalan 10 yoki 15, bosh qoldirsa chegirmasiz
+                name: discount
+                widget: number
+                required: false
               - label: Rang uslubi
                 name: art
                 widget: select
