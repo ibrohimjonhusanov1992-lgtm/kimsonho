@@ -27,7 +27,8 @@
       "desc": "Chig'anoq shilliqligi bilan chuqur tiklovchi seram",
       "price": 175000,
       "art": "art-3",
-      "discount": 15
+      "discount": 15,
+      "image1": "/uploads/img_9579.jpeg"
     },
     {
       "id": "p4",
