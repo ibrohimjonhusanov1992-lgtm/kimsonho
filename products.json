@@ -1,47 +1,27 @@
 {
   "items": [
-    {
-      "id": "p1r",
-      "tag": "Seram",
-      "name": "Centella Repair Ampoule",
-      "desc": "Tinchlantiruvchi va tiklovchi kunlik seram",
-      "price": 185000,
-      "art": "art-1"
-    },
-    {
-      "id": "p2",
-      "tag": "Toner",
-      "name": "Rice Glow Toner",
-      "desc": "Yaltirash va yumshoqlik uchun sholi ekstrakti bilan",
-      "price": 142000,
-      "art": "art-2"
-    },
-    {
-      "id": "p3",
-      "tag": "Krem",
-      "name": "Ginseng Vital Cream",
-      "desc": "Elastiklikni tiklovchi yosh partiya kremi",
-      "price": 210000,
-      "art": "art-3"
-    },
-    {
-      "id": "p4",
-      "tag": "milliy taomlar",
-      "name": "Jizzax somsa",
-      "desc": "Jizzax somsa yemabsiz bu dunyoga kelmapsiz",
-      "price": 98000,
-      "art": "art-4",
-      "image1": "/uploads/img_9452.jpeg"
-    },
-    {
-      "id": "p5",
-      "tag": "milliy taomlar",
-      "name": "Qurtoba",
-      "desc": "Qurt,gosht,non",
-      "details": "o'zgacha tam",
-      "price": 100000,
-      "art": "art-1",
-      "image1": "/uploads/img_9005.jpeg"
-    }
+    { "id": "p1", "tag": "Seram", "name": "Centella Repair Ampoule", "desc": "Tinchlantiruvchi va tiklovchi kunlik seram", "price": 185000, "art": "art-1" },
+    { "id": "p2", "tag": "Seram", "name": "Vitamin C Brightening Serum", "desc": "Terini yorqinlashtiruvchi va tekislovchi seram", "price": 195000, "art": "art-2" },
+    { "id": "p3", "tag": "Seram", "name": "Snail Mucin Recovery Serum", "desc": "Chig'anoq shilliqligi bilan chuqur tiklovchi seram", "price": 175000, "art": "art-3" },
+    { "id": "p4", "tag": "Seram", "name": "Niacinamide Pore Serum", "desc": "Teri teshiklarini toraytiruvchi va yog'ni nazorat qiluvchi seram", "price": 160000, "art": "art-4" },
+    { "id": "p5", "tag": "Seram", "name": "Peptide Firming Serum", "desc": "Elastiklikni oshiruvchi va yoshartiruvchi peptidli seram", "price": 220000, "art": "art-1" },
+
+    { "id": "p6", "tag": "Toner", "name": "Rice Glow Toner", "desc": "Yaltirash va yumshoqlik uchun sholi ekstrakti bilan", "price": 142000, "art": "art-2" },
+    { "id": "p7", "tag": "Toner", "name": "Green Tea Balancing Toner", "desc": "Terining moy balansini tiklovchi yashil choy toneri", "price": 135000, "art": "art-3" },
+    { "id": "p8", "tag": "Toner", "name": "Aloe Soothing Toner", "desc": "Qizargan va sezgir teri uchun tinchlantiruvchi aloe toneri", "price": 128000, "art": "art-4" },
+    { "id": "p9", "tag": "Toner", "name": "PHA Exfoliating Toner", "desc": "Yumshoq pilinglovchi, o'lik hujayralarni tozalovchi toner", "price": 150000, "art": "art-1" },
+    { "id": "p10", "tag": "Toner", "name": "Rose Hydrating Toner", "desc": "Chuqur namlovchi atirgul ekstraktli toner", "price": 145000, "art": "art-2" },
+
+    { "id": "p11", "tag": "Krem", "name": "Ginseng Vital Cream", "desc": "Elastiklikni tiklovchi yosh partiya kremi", "price": 210000, "art": "art-3" },
+    { "id": "p12", "tag": "Krem", "name": "Ceramide Barrier Cream", "desc": "Teri to'sig'ini tiklovchi seramidli krem", "price": 230000, "art": "art-4" },
+    { "id": "p13", "tag": "Krem", "name": "Collagen Firming Cream", "desc": "Qavariqlikni oshiruvchi kollagenli krem", "price": 245000, "art": "art-1" },
+    { "id": "p14", "tag": "Krem", "name": "Cica Calming Cream", "desc": "Qizarish va tirnalgan teri uchun tinchlantiruvchi krem", "price": 190000, "art": "art-2" },
+    { "id": "p15", "tag": "Krem", "name": "Honey Moisture Cream", "desc": "Asal ekstraktli chuqur namlovchi krem", "price": 175000, "art": "art-3" },
+
+    { "id": "p16", "tag": "Niqob", "name": "Hyaluron Sheet Mask", "desc": "10 donalik chuqur namlovchi niqoblar to'plami", "price": 98000, "art": "art-4" },
+    { "id": "p17", "tag": "Niqob", "name": "Charcoal Clay Mask", "desc": "Teshiklarni tozalovchi ko'mir-loy niqobi", "price": 110000, "art": "art-1" },
+    { "id": "p18", "tag": "Niqob", "name": "Propolis Glow Mask", "desc": "Terini yumshatuvchi va yaltiratuvchi propolis niqobi", "price": 105000, "art": "art-2" },
+    { "id": "p19", "tag": "Niqob", "name": "Aloe Soothing Sheet Mask", "desc": "Sezgir teri uchun tinchlantiruvchi aloe niqobi", "price": 95000, "art": "art-3" },
+    { "id": "p20", "tag": "Niqob", "name": "Gold Radiance Mask", "desc": "Yorqinlik beruvchi oltin zarrachali niqob", "price": 130000, "art": "art-4" }
   ]
 }
