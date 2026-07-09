@@ -98,7 +98,8 @@
       "desc": "Elastiklikni tiklovchi yosh partiya kremi",
       "price": 210000,
       "art": "art-3",
-      "discount": 15
+      "discount": 15,
+      "image1": "/uploads/img_9581.png"
     },
     {
       "id": "p12",
@@ -123,7 +124,8 @@
       "name": "Cica Calming Cream",
       "desc": "Qizarish va tirnalgan teri uchun tinchlantiruvchi krem",
       "price": 190000,
-      "art": "art-2"
+      "art": "art-2",
+      "image1": "/uploads/img_9584.jpeg"
     },
     {
       "id": "p15",
@@ -140,7 +142,8 @@
       "desc": "10 donalik chuqur namlovchi niqoblar to'plami",
       "price": 98000,
       "art": "art-4",
-      "discount": 25
+      "discount": 25,
+      "image1": "/uploads/img_9586.jpeg"
     },
     {
       "id": "p17",
@@ -148,7 +151,8 @@
       "name": "Charcoal Clay Mask",
       "desc": "Teshiklarni tozalovchi ko'mir-loy niqobi",
       "price": 110000,
-      "art": "art-1"
+      "art": "art-1",
+      "image1": "/uploads/img_9587.jpeg"
     },
     {
       "id": "p18",
