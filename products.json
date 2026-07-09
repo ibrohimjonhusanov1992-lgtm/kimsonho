@@ -16,7 +16,9 @@
       "name": "Vitamin C Brightening Serum",
       "desc": "Terini yorqinlashtiruvchi va tekislovchi seram",
       "price": 195000,
-      "art": "art-2"
+      "art": "art-2",
+      "image1": "/uploads/img_9573.webp",
+      "image2": "/uploads/img_9571.webp"
     },
     {
       "id": "p3",
