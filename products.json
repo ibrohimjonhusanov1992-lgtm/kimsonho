@@ -8,7 +8,7 @@
       "price": 185000,
       "art": "art-1",
       "discount": 10,
-      "image1": "/uploads/68dec3db-f487-4b2c-8e1d-c2845045f46d.png"
+      "section": "EVENT"
     },
     {
       "id": "p2",
@@ -17,8 +17,7 @@
       "desc": "Terini yorqinlashtiruvchi va tekislovchi seram",
       "price": 195000,
       "art": "art-2",
-      "image1": "/uploads/img_9573.webp",
-      "image2": "/uploads/img_9571.webp"
+      "section": "NEW"
     },
     {
       "id": "p3",
@@ -28,16 +27,16 @@
       "price": 175000,
       "art": "art-3",
       "discount": 15,
-      "image1": "/uploads/img_9579.jpeg"
+      "section": "EVENT"
     },
     {
       "id": "p4",
       "tag": "Seram",
-      "name": "Snail Mucin",
+      "name": "Niacinamide Pore Serum",
       "desc": "Teri teshiklarini toraytiruvchi va yog'ni nazorat qiluvchi seram",
       "price": 160000,
       "art": "art-4",
-      "image1": "/uploads/img_9574.jpeg"
+      "section": "BEST"
     },
     {
       "id": "p5",
@@ -45,7 +44,8 @@
       "name": "Peptide Firming Serum",
       "desc": "Elastiklikni oshiruvchi va yoshartiruvchi peptidli seram",
       "price": 220000,
-      "art": "art-1"
+      "art": "art-1",
+      "section": "NEW"
     },
     {
       "id": "p6",
@@ -55,7 +55,7 @@
       "price": 142000,
       "art": "art-2",
       "discount": 10,
-      "image1": "/uploads/img_9583.jpeg"
+      "section": "EVENT"
     },
     {
       "id": "p7",
@@ -64,7 +64,7 @@
       "desc": "Terining moy balansini tiklovchi yashil choy toneri",
       "price": 135000,
       "art": "art-3",
-      "image1": "/uploads/img_9585.png"
+      "section": "BEST"
     },
     {
       "id": "p8",
@@ -72,7 +72,8 @@
       "name": "Aloe Soothing Toner",
       "desc": "Qizargan va sezgir teri uchun tinchlantiruvchi aloe toneri",
       "price": 128000,
-      "art": "art-4"
+      "art": "art-4",
+      "section": "NEW"
     },
     {
       "id": "p9",
@@ -81,7 +82,8 @@
       "desc": "Yumshoq pilinglovchi, o'lik hujayralarni tozalovchi toner",
       "price": 150000,
       "art": "art-1",
-      "discount": 20
+      "discount": 20,
+      "section": "EVENT"
     },
     {
       "id": "p10",
@@ -89,7 +91,8 @@
       "name": "Rose Hydrating Toner",
       "desc": "Chuqur namlovchi atirgul ekstraktli toner",
       "price": 145000,
-      "art": "art-2"
+      "art": "art-2",
+      "section": "BEST"
     },
     {
       "id": "p11",
@@ -99,7 +102,7 @@
       "price": 210000,
       "art": "art-3",
       "discount": 15,
-      "image1": "/uploads/img_9581.png"
+      "section": "EVENT"
     },
     {
       "id": "p12",
@@ -107,7 +110,8 @@
       "name": "Ceramide Barrier Cream",
       "desc": "Teri to'sig'ini tiklovchi seramidli krem",
       "price": 230000,
-      "art": "art-4"
+      "art": "art-4",
+      "section": "BEST"
     },
     {
       "id": "p13",
@@ -116,7 +120,8 @@
       "desc": "Qavariqlikni oshiruvchi kollagenli krem",
       "price": 245000,
       "art": "art-1",
-      "discount": 10
+      "discount": 10,
+      "section": "EVENT"
     },
     {
       "id": "p14",
@@ -125,7 +130,7 @@
       "desc": "Qizarish va tirnalgan teri uchun tinchlantiruvchi krem",
       "price": 190000,
       "art": "art-2",
-      "image1": "/uploads/img_9584.jpeg"
+      "section": "NEW"
     },
     {
       "id": "p15",
@@ -133,7 +138,8 @@
       "name": "Honey Moisture Cream",
       "desc": "Asal ekstraktli chuqur namlovchi krem",
       "price": 175000,
-      "art": "art-3"
+      "art": "art-3",
+      "section": "BEST"
     },
     {
       "id": "p16",
@@ -143,7 +149,7 @@
       "price": 98000,
       "art": "art-4",
       "discount": 25,
-      "image1": "/uploads/img_9586.jpeg"
+      "section": "EVENT"
     },
     {
       "id": "p17",
@@ -152,7 +158,7 @@
       "desc": "Teshiklarni tozalovchi ko'mir-loy niqobi",
       "price": 110000,
       "art": "art-1",
-      "image1": "/uploads/img_9587.jpeg"
+      "section": "NEW"
     },
     {
       "id": "p18",
@@ -161,7 +167,8 @@
       "desc": "Terini yumshatuvchi va yaltiratuvchi propolis niqobi",
       "price": 105000,
       "art": "art-2",
-      "discount": 15
+      "discount": 15,
+      "section": "EVENT"
     },
     {
       "id": "p19",
@@ -169,7 +176,8 @@
       "name": "Aloe Soothing Sheet Mask",
       "desc": "Sezgir teri uchun tinchlantiruvchi aloe niqobi",
       "price": 95000,
-      "art": "art-3"
+      "art": "art-3",
+      "section": "BEST"
     },
     {
       "id": "p20",
@@ -177,7 +185,8 @@
       "name": "Gold Radiance Mask",
       "desc": "Yorqinlik beruvchi oltin zarrachali niqob",
       "price": 130000,
-      "art": "art-4"
+      "art": "art-4",
+      "section": "NEW"
     }
   ]
 }
