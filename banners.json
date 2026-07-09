@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "badge": "YANGI", "eyebrow": "Koreakosmetika - Seul", "title": "Koreya go'zallik sirlari, endi Uzbekistonda", "subtitle": "Original K-beauty mahsulotlari to'g'ridan-to'g'ri Janubiy Koreyadan", "button": "Katalogni ko'rish", "image": "", "color": "green" },
+    { "badge": "-10%", "eyebrow": "Aksiya", "title": "Birinchi buyurtmaga 10% chegirma", "subtitle": "Barcha yangi mijozlar uchun maxsus taklif", "button": "Hoziroq xarid qiling", "image": "", "color": "olive" },
+    { "badge": "BEPUL", "eyebrow": "Yetkazib berish", "title": "2 ta mahsulot - bepul yetkazib berish", "subtitle": "Toshkent bo'ylab 1-2 kunda yetib boradi", "button": "Batafsil", "image": "", "color": "gold" }
+  ]
+}
