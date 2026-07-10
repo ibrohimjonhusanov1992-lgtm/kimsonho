@@ -1,191 +1,624 @@
 {
   "items": [
     {
-      "id": "p1",
-      "tag": "Seram",
-      "name": "Centella Repair Ampoule",
-      "desc": "Tinchlantiruvchi va tiklovchi kunlik seram",
-      "price": 185000,
+      "id": "m1",
+      "tag": "Niqob",
+      "name": "Karboksil Maska",
+      "desc": "Terini tozalab, kislorod bilan boyituvchi niqob",
+      "price": 14000,
       "art": "art-1",
-      "discount": 10,
-      "section": "TIMESALE"
-    },
-    {
-      "id": "p2",
-      "tag": "Seram",
-      "name": "Vitamin C Brightening Serum",
-      "desc": "Terini yorqinlashtiruvchi va tekislovchi seram",
-      "price": 195000,
-      "art": "art-2",
-      "section": "TIMESALE"
-    },
-    {
-      "id": "p3",
-      "tag": "Seram",
-      "name": "Snail Mucin Recovery Serum",
-      "desc": "Chig'anoq shilliqligi bilan chuqur tiklovchi seram",
-      "price": 175000,
-      "art": "art-3",
-      "discount": 15,
-      "section": "TIMESALE"
-    },
-    {
-      "id": "p4",
-      "tag": "Seram",
-      "name": "Niacinamide Pore Serum",
-      "desc": "Teri teshiklarini toraytiruvchi va yog'ni nazorat qiluvchi seram",
-      "price": 160000,
-      "art": "art-4",
       "section": "BEST"
     },
     {
-      "id": "p5",
-      "tag": "Seram",
-      "name": "Peptide Firming Serum",
-      "desc": "Elastiklikni oshiruvchi va yoshartiruvchi peptidli seram",
-      "price": 220000,
-      "art": "art-1",
-      "section": "NEW"
-    },
-    {
-      "id": "p6",
-      "tag": "Toner",
-      "name": "Rice Glow Toner",
-      "desc": "Yaltirash va yumshoqlik uchun sholi ekstrakti bilan",
-      "price": 142000,
-      "art": "art-2",
-      "discount": 10,
-      "section": "EVENT"
-    },
-    {
-      "id": "p7",
-      "tag": "Toner",
-      "name": "Green Tea Balancing Toner",
-      "desc": "Terining moy balansini tiklovchi yashil choy toneri",
-      "price": 135000,
-      "art": "art-3",
-      "section": "BEST"
-    },
-    {
-      "id": "p8",
-      "tag": "Toner",
-      "name": "Aloe Soothing Toner",
-      "desc": "Qizargan va sezgir teri uchun tinchlantiruvchi aloe toneri",
-      "price": 128000,
-      "art": "art-4",
-      "section": "NEW"
-    },
-    {
-      "id": "p9",
-      "tag": "Toner",
-      "name": "PHA Exfoliating Toner",
-      "desc": "Yumshoq pilinglovchi, o'lik hujayralarni tozalovchi toner",
-      "price": 150000,
-      "art": "art-1",
-      "discount": 20,
-      "section": "EVENT"
-    },
-    {
-      "id": "p10",
-      "tag": "Toner",
-      "name": "Rose Hydrating Toner",
-      "desc": "Chuqur namlovchi atirgul ekstraktli toner",
-      "price": 145000,
+      "id": "m2",
+      "tag": "Toplam",
+      "name": "axisy Duo Set",
+      "desc": "Ikki bosqichli parvarish to'plami",
+      "price": 17000,
       "art": "art-2",
       "section": "BEST"
     },
     {
-      "id": "p11",
-      "tag": "Krem",
-      "name": "Ginseng Vital Cream",
-      "desc": "Elastiklikni tiklovchi yosh partiya kremi",
-      "price": 210000,
+      "id": "m3",
+      "tag": "Niqob",
+      "name": "Jenshen Pachi",
+      "desc": "Jenshen ekstraktli tiklovchi patch-niqob",
+      "price": 800,
       "art": "art-3",
-      "discount": 15,
-      "section": "EVENT"
+      "section": "BEST"
     },
     {
-      "id": "p12",
-      "tag": "Krem",
-      "name": "Ceramide Barrier Cream",
-      "desc": "Teri to'sig'ini tiklovchi seramidli krem",
-      "price": 230000,
+      "id": "m4",
+      "tag": "Tozalash",
+      "name": "Easy mind Cleansing Oil",
+      "desc": "Bo'yoq va ifloslikni yumshoq tozalovchi yog'",
+      "price": 8500,
       "art": "art-4",
       "section": "BEST"
     },
     {
-      "id": "p13",
-      "tag": "Krem",
-      "name": "Collagen Firming Cream",
-      "desc": "Qavariqlikni oshiruvchi kollagenli krem",
-      "price": 245000,
+      "id": "m5",
+      "tag": "Soch",
+      "name": "Easy mind Hair Tonic",
+      "desc": "Soch ildizini mustahkamlovchi tonik",
+      "price": 8000,
       "art": "art-1",
-      "discount": 10,
-      "section": "EVENT"
+      "section": "BEST"
     },
     {
-      "id": "p14",
+      "id": "m6",
+      "tag": "SPF",
+      "name": "roundlab Sprey Mistlik SPF",
+      "desc": "Quyoshdan himoya qiluvchi sprey-mist",
+      "price": 10000,
+      "art": "art-2",
+      "section": "BEST"
+    },
+    {
+      "id": "m7",
       "tag": "Krem",
-      "name": "Cica Calming Cream",
-      "desc": "Qizarish va tirnalgan teri uchun tinchlantiruvchi krem",
-      "price": 190000,
+      "name": "Avelium Retinol Ko'z Krem",
+      "desc": "Retinol bilan ko'z atrofi terisi uchun yoshartiruvchi krem",
+      "price": 7000,
+      "art": "art-3",
+      "section": "BEST"
+    },
+    {
+      "id": "m8",
+      "tag": "Krem",
+      "name": "AHC Aura Secret Toneup Cream",
+      "desc": "Teri rangini tekislovchi va yoritilishi beruvchi krem",
+      "price": 12000,
+      "art": "art-4",
+      "section": "BEST"
+    },
+    {
+      "id": "m9",
+      "tag": "Niqob",
+      "name": "Canemazole Svecha",
+      "desc": "Terini tozalovchi maxsus vosita",
+      "price": 2500,
+      "art": "art-1",
+      "section": "BEST"
+    },
+    {
+      "id": "m10",
+      "tag": "Vitamin",
+      "name": "Vitasub Kids Multivitamin",
+      "desc": "Bolalar uchun multivitamin qo'shimchasi",
+      "price": 6000,
+      "art": "art-2",
+      "section": "BEST"
+    },
+    {
+      "id": "m11",
+      "tag": "Vitamin",
+      "name": "Naturalize Omega 3",
+      "desc": "Omega-3 yog' kislotalari qo'shimchasi",
+      "price": 10500,
+      "art": "art-3",
+      "section": "BEST"
+    },
+    {
+      "id": "m12",
+      "tag": "Krem",
+      "name": "Melosso Aqua Cream",
+      "desc": "Namlikni ta'minlovchi yengil suvli krem",
+      "price": 3500,
+      "art": "art-4",
+      "section": "BEST"
+    },
+    {
+      "id": "m13",
+      "tag": "Krem",
+      "name": "Melosso Collagen Cream",
+      "desc": "Kollagen bilan elastiklikni oshiruvchi krem",
+      "price": 3500,
+      "art": "art-1",
+      "section": "BEST"
+    },
+    {
+      "id": "m14",
+      "tag": "SPF",
+      "name": "roundlab Brich Juice Sun Cushion",
+      "desc": "Qayin suvli quyoshdan himoya kushioni",
+      "price": 12000,
       "art": "art-2",
       "section": "NEW"
     },
     {
-      "id": "p15",
+      "id": "m15",
       "tag": "Krem",
-      "name": "Honey Moisture Cream",
-      "desc": "Asal ekstraktli chuqur namlovchi krem",
-      "price": 175000,
+      "name": "Easy mind Moisture Cream",
+      "desc": "100 soatlik namlantiruvchi krem",
+      "price": 8500,
       "art": "art-3",
-      "section": "BEST"
+      "section": "NEW"
     },
     {
-      "id": "p16",
-      "tag": "Niqob",
-      "name": "Hyaluron Sheet Mask",
-      "desc": "10 donalik chuqur namlovchi niqoblar to'plami",
-      "price": 98000,
+      "id": "m16",
+      "tag": "Tozalash",
+      "name": "Anua Enzyme Powder Pudra",
+      "desc": "Ferment asosidagi tozalovchi kukun",
+      "price": 14000,
       "art": "art-4",
-      "discount": 25,
-      "section": "EVENT"
+      "section": "NEW"
     },
     {
-      "id": "p17",
-      "tag": "Niqob",
-      "name": "Charcoal Clay Mask",
-      "desc": "Teshiklarni tozalovchi ko'mir-loy niqobi",
-      "price": 110000,
+      "id": "m17",
+      "tag": "SPF",
+      "name": "centella Stikli SPF",
+      "desc": "Sentella ekstraktli stik ko'rinishidagi quyosh himoyasi",
+      "price": 8000,
       "art": "art-1",
       "section": "NEW"
     },
     {
-      "id": "p18",
-      "tag": "Niqob",
-      "name": "Propolis Glow Mask",
-      "desc": "Terini yumshatuvchi va yaltiratuvchi propolis niqobi",
-      "price": 105000,
+      "id": "m18",
+      "tag": "SPF",
+      "name": "Round lab Ko'k SPF",
+      "desc": "Kunlik quyoshdan himoya kremi",
+      "price": 10000,
       "art": "art-2",
-      "discount": 15,
+      "section": "NEW"
+    },
+    {
+      "id": "m19",
+      "tag": "Tana",
+      "name": "Underarm 3D Under Arm",
+      "desc": "Qo'ltiq osti terisi uchun parvarish vositasi",
+      "price": 4800,
+      "art": "art-3",
+      "section": "NEW"
+    },
+    {
+      "id": "m20",
+      "tag": "Seram",
+      "name": "Axis-y Serum",
+      "desc": "Terini tiklovchi va namlantiruvchi seram",
+      "price": 8200,
+      "art": "art-4",
+      "section": "NEW"
+    },
+    {
+      "id": "m21",
+      "tag": "Seram",
+      "name": "celimax Retinol Shot Tightening Booster",
+      "desc": "Retinol bilan terini taranglashtiruvchi buster, 15ml",
+      "price": 11000,
+      "art": "art-1",
+      "section": "NEW"
+    },
+    {
+      "id": "m22",
+      "tag": "Krem",
+      "name": "Ronas CC Krem",
+      "desc": "Teri rangini tenglashtiruvchi CC krem",
+      "price": 7000,
+      "art": "art-2",
+      "section": "NEW"
+    },
+    {
+      "id": "m23",
+      "tag": "Krem",
+      "name": "Reedle Shot 100 Li Krem",
+      "desc": "Faol moddalarni teriga singdiruvchi krem",
+      "price": 15500,
+      "art": "art-3",
+      "section": "NEW"
+    },
+    {
+      "id": "m24",
+      "tag": "Tana",
+      "name": "Dezodarant Pushti Qizil",
+      "desc": "Kunlik dezodorant",
+      "price": 5000,
+      "art": "art-4",
+      "section": "NEW"
+    },
+    {
+      "id": "m25",
+      "tag": "SPF",
+      "name": "Aestura SPF",
+      "desc": "Sezgir teri uchun quyoshdan himoya",
+      "price": 2500,
+      "art": "art-1",
+      "section": "NEW"
+    },
+    {
+      "id": "m26",
+      "tag": "Tozalash",
+      "name": "Dr. G Penka 30 ml",
+      "desc": "Yumshoq ko'pikli yuvuvchi vosita, 30ml",
+      "price": 2500,
+      "art": "art-2",
+      "section": "NEW"
+    },
+    {
+      "id": "m27",
+      "tag": "Tozalash",
+      "name": "Solua Foam Cleanser",
+      "desc": "Chuqur tozalovchi ko'pik",
+      "price": 9000,
+      "art": "art-3",
+      "section": "NEW"
+    },
+    {
+      "id": "m28",
+      "tag": "Krem",
+      "name": "Solua Soothing Cream",
+      "desc": "Terini tinchlantiruvchi krem",
+      "price": 8000,
+      "art": "art-4",
+      "section": "NEW"
+    },
+    {
+      "id": "m29",
+      "tag": "Tozalash",
+      "name": "Easy mind Acne Penka 200 ml",
+      "desc": "Akne teri uchun tozalovchi ko'pik, 200ml",
+      "price": 6000,
+      "art": "art-1",
+      "section": "NEW"
+    },
+    {
+      "id": "m30",
+      "tag": "Krem",
+      "name": "Beaute Vita-Collagen Tone-up Sun Cream",
+      "desc": "Vitamin va kollagenli, teri rangini yorituvchi quyosh kremi",
+      "price": 3000,
+      "art": "art-2",
+      "section": "NEW"
+    },
+    {
+      "id": "m31",
+      "tag": "Toner",
+      "name": "Axis-y Toner 125 ml",
+      "desc": "Teri balansini tiklovchi toner, 125ml",
+      "price": 10000,
+      "art": "art-3",
       "section": "EVENT"
     },
     {
-      "id": "p19",
+      "id": "m32",
+      "tag": "Krem",
+      "name": "Axis-y Ko'z Krem",
+      "desc": "Ko'z atrofi terisi uchun parvarish kremi",
+      "price": 9500,
+      "art": "art-4",
+      "section": "EVENT"
+    },
+    {
+      "id": "m33",
+      "tag": "Tozalash",
+      "name": "Axis-y Penka 1",
+      "desc": "Yumshoq tozalovchi ko'pik",
+      "price": 7000,
+      "art": "art-1",
+      "section": "EVENT"
+    },
+    {
+      "id": "m34",
+      "tag": "SPF",
+      "name": "Axis-y SPF",
+      "desc": "Kunlik quyoshdan himoya vositasi",
+      "price": 9500,
+      "art": "art-2",
+      "section": "EVENT"
+    },
+    {
+      "id": "m35",
       "tag": "Niqob",
-      "name": "Aloe Soothing Sheet Mask",
-      "desc": "Sezgir teri uchun tinchlantiruvchi aloe niqobi",
-      "price": 95000,
+      "name": "Easy Mind Maska Aloe",
+      "desc": "Aloe ekstraktli tinchlantiruvchi niqob",
+      "price": 2500,
+      "art": "art-1",
+      "section": "BEST"
+    },
+    {
+      "id": "m36",
+      "tag": "Tozalash",
+      "name": "Lebelage Rice Cleansing Foam Set",
+      "desc": "Guruchli tozalovchi ko'pik to'plami",
+      "price": 3000,
+      "art": "art-2",
+      "section": "NEW"
+    },
+    {
+      "id": "m37",
+      "tag": "Krem",
+      "name": "Tiger Sport Massage Cream",
+      "desc": "Massaj uchun krem",
+      "price": 2500,
+      "art": "art-3",
+      "section": "EVENT"
+    },
+    {
+      "id": "m38",
+      "tag": "Vitamin",
+      "name": "Boto Halol Collagen 1 oylik",
+      "desc": "Halol kollagen qo'shimchasi, 1 oylik",
+      "price": 6500,
+      "art": "art-4",
+      "section": "BEST"
+    },
+    {
+      "id": "m39",
+      "tag": "Toner",
+      "name": "Axis-y Triple PDRN Gel Toner",
+      "desc": "PDRN bilan uch bosqichli gel toner",
+      "price": 11500,
+      "art": "art-1",
+      "section": "NEW"
+    },
+    {
+      "id": "m40",
+      "tag": "SPF",
+      "name": "Anjo Spf",
+      "desc": "Kunlik quyoshdan himoya vositasi",
+      "price": 2200,
+      "art": "art-2",
+      "section": "EVENT"
+    },
+    {
+      "id": "m41",
+      "tag": "SPF",
+      "name": "Secret Spf",
+      "desc": "Terini quyoshdan himoya qiluvchi krem",
+      "price": 2200,
       "art": "art-3",
       "section": "BEST"
     },
     {
-      "id": "p20",
-      "tag": "Niqob",
-      "name": "Gold Radiance Mask",
-      "desc": "Yorqinlik beruvchi oltin zarrachali niqob",
-      "price": 130000,
+      "id": "m42",
+      "tag": "Seram",
+      "name": "Easy Mind Aqua Ampoule",
+      "desc": "Namlantiruvchi suvli ampula",
+      "price": 4000,
       "art": "art-4",
+      "section": "NEW"
+    },
+    {
+      "id": "m43",
+      "tag": "Krem",
+      "name": "J. Vita BB Krem",
+      "desc": "Teri rangini tekislovchi BB krem",
+      "price": 2500,
+      "art": "art-1",
+      "section": "EVENT"
+    },
+    {
+      "id": "m44",
+      "tag": "SPF",
+      "name": "Luvum Hyaluronic Moisture Sun Cream SPF",
+      "desc": "Gialuron kislotali namlantiruvchi quyosh kremi",
+      "price": 12000,
+      "art": "art-2",
+      "section": "BEST"
+    },
+    {
+      "id": "m45",
+      "tag": "Krem",
+      "name": "rejumella BB Krem",
+      "desc": "Namlantiruvchi va tekislovchi BB krem",
+      "price": 15000,
+      "art": "art-3",
+      "section": "NEW"
+    },
+    {
+      "id": "m46",
+      "tag": "Krem",
+      "name": "Anjo Pudra 21",
+      "desc": "Yuzni matlashtiruvchi pudra, 21 rang",
+      "price": 3800,
+      "art": "art-4",
+      "section": "EVENT"
+    },
+    {
+      "id": "m47",
+      "tag": "Vitamin",
+      "name": "Hurum Collagen Qizil 2 oylik",
+      "desc": "Kollagen qo'shimchasi, 2 oylik",
+      "price": 11000,
+      "art": "art-1",
+      "section": "BEST"
+    },
+    {
+      "id": "m48",
+      "tag": "Krem",
+      "name": "Avelium Collagenli Krem",
+      "desc": "Kollagenli elastiklik beruvchi krem",
+      "price": 3500,
+      "art": "art-2",
+      "section": "NEW"
+    },
+    {
+      "id": "m49",
+      "tag": "Niqob",
+      "name": "Easy mind Maska Collagen",
+      "desc": "Kollagenli tiklovchi niqob",
+      "price": 2500,
+      "art": "art-3",
+      "section": "EVENT"
+    },
+    {
+      "id": "m50",
+      "tag": "Krem",
+      "name": "Axis-y Krem",
+      "desc": "Terini namlantiruvchi va tiklovchi krem",
+      "price": 9800,
+      "art": "art-4",
+      "section": "BEST"
+    },
+    {
+      "id": "m51",
+      "tag": "Seram",
+      "name": "Axis-y TXA 2.5%",
+      "desc": "Traneksam kislotali dog'larga qarshi seram",
+      "price": 11500,
+      "art": "art-1",
+      "section": "NEW"
+    },
+    {
+      "id": "m52",
+      "tag": "Toner",
+      "name": "Anua Heartleaf 77% Soothing Toner 250ml",
+      "desc": "Heartleaf 77% tinchlantiruvchi toner, 250ml",
+      "price": 6500,
+      "art": "art-2",
+      "section": "EVENT"
+    },
+    {
+      "id": "m53",
+      "tag": "Niqob",
+      "name": "Welderma Maska",
+      "desc": "Terini parvarish qiluvchi niqob",
+      "price": 10500,
+      "art": "art-3",
+      "section": "BEST"
+    },
+    {
+      "id": "m54",
+      "tag": "Niqob",
+      "name": "Lalarecipe VITA Melting Gel Mask",
+      "desc": "Vitaminli eruvchi gel niqob",
+      "price": 12000,
+      "art": "art-4",
+      "section": "NEW"
+    },
+    {
+      "id": "m55",
+      "tag": "Tozalash",
+      "name": "celimax Noni Acne Cleanser",
+      "desc": "Noni ekstraktli akne teri uchun tozalovchi",
+      "price": 10000,
+      "art": "art-1",
+      "section": "EVENT"
+    },
+    {
+      "id": "m56",
+      "tag": "SPF",
+      "name": "Joseon Spf Ko'k",
+      "desc": "Kunlik quyoshdan himoya kremi",
+      "price": 10000,
+      "art": "art-2",
+      "section": "BEST"
+    },
+    {
+      "id": "m57",
+      "tag": "Krem",
+      "name": "Shea butter",
+      "desc": "Shi yog'i asosidagi namlantiruvchi krem",
+      "price": 8000,
+      "art": "art-3",
+      "section": "NEW"
+    },
+    {
+      "id": "m58",
+      "tag": "Toplam",
+      "name": "anua PDRN + Hyaluron Capsul Mist Set",
+      "desc": "PDRN va gialuronli kapsulali mist to'plami",
+      "price": 31500,
+      "art": "art-4",
+      "section": "EVENT"
+    },
+    {
+      "id": "m59",
+      "tag": "Atir",
+      "name": "Foellie Intim Atir Qora",
+      "desc": "Intim gigiyena uchun atir",
+      "price": 7000,
+      "art": "art-1",
+      "section": "BEST"
+    },
+    {
+      "id": "m60",
+      "tag": "Atir",
+      "name": "foellie Eau de Noir",
+      "desc": "Intim gigiyena atiri",
+      "price": 8000,
+      "art": "art-2",
+      "section": "NEW"
+    },
+    {
+      "id": "m61",
+      "tag": "SPF",
+      "name": "Seleve Spf",
+      "desc": "Terini quyoshdan himoya qiluvchi vosita",
+      "price": 12000,
+      "art": "art-3",
+      "section": "EVENT"
+    },
+    {
+      "id": "m62",
+      "tag": "Krem",
+      "name": "Dr. Althea Relief Cream Mist",
+      "desc": "Tinchlantiruvchi krem-mist",
+      "price": 12000,
+      "art": "art-4",
+      "section": "BEST"
+    },
+    {
+      "id": "m63",
+      "tag": "Krem",
+      "name": "Dr.Althea 345 Krem",
+      "desc": "Terini tiklovchi 345 krem",
+      "price": 14000,
+      "art": "art-1",
+      "section": "NEW"
+    },
+    {
+      "id": "m64",
+      "tag": "SPF",
+      "name": "TirTir Mask Fit Red Cushion SPF40 21N Ivory",
+      "desc": "Yuzni tekislovchi kushion, SPF40, 21N Ivory rang",
+      "price": 12000,
+      "art": "art-2",
+      "section": "EVENT"
+    },
+    {
+      "id": "m65",
+      "tag": "Krem",
+      "name": "Samsung Jenshenli BB Cream",
+      "desc": "Jenshen ekstraktli BB krem",
+      "price": 8500,
+      "art": "art-3",
+      "section": "BEST"
+    },
+    {
+      "id": "m66",
+      "tag": "Niqob",
+      "name": "Easy mind Maska Hyaluron",
+      "desc": "Gialuronli namlantiruvchi niqob",
+      "price": 2500,
+      "art": "art-4",
+      "section": "NEW"
+    },
+    {
+      "id": "m67",
+      "tag": "Niqob",
+      "name": "Easy mind Maska Vitaminli (limon)",
+      "desc": "Limon vitaminli yorituvchi niqob",
+      "price": 2500,
+      "art": "art-1",
+      "section": "EVENT"
+    },
+    {
+      "id": "m68",
+      "tag": "Niqob",
+      "name": "Easy mind Tea Tree Maska",
+      "desc": "Choy daraxti bilan akne teri uchun niqob",
+      "price": 2500,
+      "art": "art-2",
+      "section": "BEST"
+    },
+    {
+      "id": "m69",
+      "tag": "Krem",
+      "name": "snow white Mela Stop Krem",
+      "desc": "Dog'larga qarshi oqartiruvchi krem",
+      "price": 12500,
+      "art": "art-3",
       "section": "NEW"
     }
   ]
