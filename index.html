@@ -243,11 +243,23 @@
     text-align:center; font-family:'Marcellus',serif; font-size:24px; color:var(--ink);
     margin:36px 0 20px; letter-spacing:0.5px;
   }
-  .product-grid-2row{
-    display:grid; grid-template-columns:repeat(2, 1fr); gap:12px;
+
+  /* TIME SALE */
+  .time-sale-block{margin-top:24px;}
+  .time-sale-head{display:flex; align-items:center; justify-content:center; gap:14px; margin-bottom:16px;}
+  .time-sale-timer{
+    background:var(--sale-red); color:#fff; font-family:'Marcellus',serif;
+    font-size:16px; padding:5px 12px; border-radius:6px; letter-spacing:1px;
   }
-  @media (min-width:641px){ .product-grid-2row{grid-template-columns:repeat(4, 1fr);} }
-  @media (min-width:1024px){ .product-grid-2row{grid-template-columns:repeat(5, 1fr);} }
+  .ts-row-wrap{position:relative;}
+  .ts-arrow{
+    position:absolute; top:50%; transform:translateY(-50%);
+    background:rgba(255,255,255,0.95); border:1px solid rgba(0,0,0,0.1);
+    width:32px; height:32px; border-radius:50%; font-size:18px; cursor:pointer; z-index:4;
+    box-shadow:0 2px 8px rgba(0,0,0,0.12); color:var(--ink);
+  }
+  .ts-arrow.prev{left:-4px;}
+  .ts-arrow.next{right:-4px;}
 
   .ad-banner{
     height:150px; margin:32px calc(-6vw) 8px; overflow:hidden;
@@ -635,27 +647,33 @@
   <button class="banner-arrow next" onclick="changeSlide(1)">›</button>
 </section>
 
-<div class="category-chips" id="categoryChips">
-  <button class="chip active" onclick="filterProducts('all', event)">Hammasi</button>
-  <button class="chip" onclick="filterProducts('Seram', event)">Seram</button>
-  <button class="chip" onclick="filterProducts('Toner', event)">Toner</button>
-  <button class="chip" onclick="filterProducts('Krem', event)">Krem</button>
-  <button class="chip" onclick="filterProducts('Niqob', event)">Niqob</button>
-</div>
+<div class="category-chips" id="categoryChips"></div>
 
 <section class="products" id="products">
+  <div class="time-sale-block" id="timeSaleBlock" style="display:none;">
+    <div class="time-sale-head">
+      <div class="hash-head" style="margin:0;">⏰ TIME SALE</div>
+      <div class="time-sale-timer" id="timeSaleTimer">--:--:--</div>
+    </div>
+    <div class="ts-row-wrap">
+      <button class="ts-arrow prev" onclick="tsScroll(-1)">‹</button>
+      <div class="product-row" id="grid-TIMESALE"></div>
+      <button class="ts-arrow next" onclick="tsScroll(1)">›</button>
+    </div>
+  </div>
+
   <div class="hash-head"># BEST</div>
-  <div class="product-grid-2row" id="grid-BEST"></div>
+  <div id="grid-BEST"></div>
 
   <div class="ad-banner" id="adBanner1"></div>
 
   <div class="hash-head"># NEW</div>
-  <div class="product-grid-2row" id="grid-NEW"></div>
+  <div id="grid-NEW"></div>
 
   <div class="ad-banner" id="adBanner2"></div>
 
   <div class="hash-head"># EVENT</div>
-  <div class="product-grid-2row" id="grid-EVENT"></div>
+  <div id="grid-EVENT"></div>
 
   <div class="ad-banner makeup" id="adBanner3"></div>
 </section>
@@ -854,15 +872,26 @@
     let source = activeCategory === 'all' ? products : products.filter(p => p.tag === activeCategory);
     source = source.filter(matchesSearch);
 
+    // Time Sale
+    const tsItems = source.filter(p => (p.section || 'BEST') === 'TIMESALE');
+    const tsBlock = document.getElementById('timeSaleBlock');
+    const tsGrid = document.getElementById('grid-TIMESALE');
+    if(tsItems.length > 0){
+      tsBlock.style.display = 'block';
+      tsGrid.innerHTML = tsItems.map((p, i) => renderCard(p, i)).join('');
+    } else {
+      tsBlock.style.display = 'none';
+    }
+
     const sections = ['BEST', 'NEW', 'EVENT'];
     sections.forEach(sec => {
       const grid = document.getElementById('grid-' + sec);
       if(!grid) return;
       const items = source.filter(p => (p.section || 'BEST') === sec);
       if(items.length === 0){
-        grid.innerHTML = `<div class="no-results" style="grid-column:1/-1;">Bu bo'limda mahsulot yo'q</div>`;
+        grid.innerHTML = `<div class="no-results">Bu bo'limda mahsulot yo'q</div>`;
       } else {
-        grid.innerHTML = items.map((p, i) => renderCard(p, i)).join('');
+        grid.innerHTML = `<div class="product-row">${items.map((p, i) => renderCard(p, i)).join('')}</div>`;
       }
     });
   }
@@ -883,7 +912,6 @@
     return `
       <div class="card" onclick="openProductDetail('${p.id}')">
         ${productArtHtml(p)}
-        ${i < 3 ? `<div class="rank-badge">${i+1}</div>` : ''}
         ${p.discount ? `<div class="sale-flag">-${p.discount}%</div>` : ''}
         <button class="like-btn ${likes[p.id] ? 'liked' : ''}" onclick="toggleLike('${p.id}', event)">♥</button>
         <div class="card-body">
@@ -1138,6 +1166,54 @@
 
   loadProducts();
   loadAdBanners();
+  loadSettings();
+
+  let timeSaleEnd = null;
+
+  async function loadSettings(){
+    let categories = ['Seram','Toner','Krem','Niqob'];
+    try{
+      const res = await fetch('/settings.json', { cache: 'no-store' });
+      const data = await res.json();
+      if(data.categories && data.categories.length){
+        categories = data.categories.map(c => typeof c === 'string' ? c : c.name);
+      }
+      if(data.timeSaleEnd) timeSaleEnd = new Date(data.timeSaleEnd);
+    }catch(err){}
+    renderChips(categories);
+    startTimeSaleTimer();
+  }
+
+  function renderChips(categories){
+    const el = document.getElementById('categoryChips');
+    el.innerHTML =
+      `<button class="chip active" onclick="filterProducts('all', event)">Hammasi</button>` +
+      categories.map(c => `<button class="chip" onclick="filterProducts('${c}', event)">${c}</button>`).join('');
+  }
+
+  function startTimeSaleTimer(){
+    const block = document.getElementById('timeSaleBlock');
+    const timerEl = document.getElementById('timeSaleTimer');
+    if(!timeSaleEnd || isNaN(timeSaleEnd.getTime())){
+      return;
+    }
+    function tick(){
+      const now = new Date();
+      let diff = Math.floor((timeSaleEnd - now) / 1000);
+      if(diff <= 0){ timerEl.textContent = "Tugadi"; return; }
+      const h = String(Math.floor(diff/3600)).padStart(2,'0');
+      const m = String(Math.floor((diff%3600)/60)).padStart(2,'0');
+      const s = String(diff%60).padStart(2,'0');
+      timerEl.textContent = `${h}:${m}:${s}`;
+    }
+    tick();
+    setInterval(tick, 1000);
+  }
+
+  function tsScroll(dir){
+    const row = document.getElementById('grid-TIMESALE');
+    if(row) row.scrollBy({ left: dir * row.clientWidth * 0.8, behavior:'smooth' });
+  }
 
   async function loadAdBanners(){
     try{
