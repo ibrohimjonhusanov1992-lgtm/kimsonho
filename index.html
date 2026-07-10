@@ -244,22 +244,44 @@
     margin:36px 0 20px; letter-spacing:0.5px;
   }
 
-  /* TIME SALE */
-  .time-sale-block{margin-top:24px;}
-  .time-sale-head{display:flex; align-items:center; justify-content:center; gap:14px; margin-bottom:16px;}
-  .time-sale-timer{
-    background:var(--sale-red); color:#fff; font-family:'Marcellus',serif;
-    font-size:16px; padding:5px 12px; border-radius:6px; letter-spacing:1px;
+  /* TIME SALE - Jolse style */
+  .time-sale-block{
+    margin:0 -6vw 24px; padding:36px 6vw 44px;
+    background:linear-gradient(120deg, #4ad6c4 0%, #9b6ef0 45%, #f06fae 100%);
+    text-align:center; color:#fff;
   }
-  .ts-row-wrap{position:relative;}
+  .ts-eyebrow{font-size:14px; letter-spacing:3px; opacity:0.95; margin-bottom:6px;}
+  .ts-title{font-family:'Marcellus',serif; font-size:38px; font-weight:600; letter-spacing:2px; margin-bottom:26px;}
+  .ts-timer{display:flex; align-items:flex-start; justify-content:center; gap:6px; margin-bottom:30px;}
+  .ts-unit{display:flex; flex-direction:column; align-items:center; gap:6px;}
+  .ts-num{
+    background:#fff; color:var(--ink); font-family:'Marcellus',serif; font-size:34px; font-weight:600;
+    width:64px; height:64px; border-radius:10px; display:flex; align-items:center; justify-content:center;
+  }
+  .ts-lbl{font-size:11px; letter-spacing:1.5px; opacity:0.95;}
+  .ts-colon{font-size:30px; margin-top:14px; opacity:0.9;}
+  .ts-stage-wrap{position:relative; max-width:420px; margin:0 auto;}
+  .ts-stage{background:#fff; border-radius:8px; overflow:hidden; text-align:left; color:var(--ink);}
   .ts-arrow{
-    position:absolute; top:50%; transform:translateY(-50%);
-    background:rgba(255,255,255,0.95); border:1px solid rgba(0,0,0,0.1);
-    width:32px; height:32px; border-radius:50%; font-size:18px; cursor:pointer; z-index:4;
-    box-shadow:0 2px 8px rgba(0,0,0,0.12); color:var(--ink);
+    position:absolute; top:38%; transform:translateY(-50%);
+    background:#fff; border:none; width:44px; height:44px; border-radius:50%;
+    font-size:22px; cursor:pointer; z-index:4; box-shadow:0 3px 12px rgba(0,0,0,0.2); color:var(--ink);
   }
-  .ts-arrow.prev{left:-4px;}
-  .ts-arrow.next{right:-4px;}
+  .ts-arrow.prev{left:-16px;}
+  .ts-arrow.next{right:-16px;}
+  .ts-stage .ts-img{width:100%; aspect-ratio:1/1; background:var(--celadon); display:flex; align-items:center; justify-content:center;}
+  .ts-stage .ts-img img{width:100%; height:100%; object-fit:cover;}
+  .ts-stage .ts-info{padding:18px 20px 22px;}
+  .ts-stage .ts-brand{font-size:12px; font-weight:700; letter-spacing:0.5px; margin-bottom:6px;}
+  .ts-stage .ts-name{font-size:17px; line-height:1.35; margin-bottom:14px; padding-bottom:14px; border-bottom:1px solid rgba(0,0,0,0.08);}
+  .ts-stage .ts-old{text-decoration:line-through; opacity:0.5; font-size:14px;}
+  .ts-stage .ts-new{color:var(--sale-red); font-family:'Marcellus',serif; font-size:24px; margin:2px 0;}
+  .ts-stage .ts-off{color:var(--sale-red); font-weight:700; font-size:14px;}
+  .ts-stage .ts-actions{display:flex; gap:12px; margin-top:14px;}
+  .ts-stage .ts-cart{
+    flex:1; background:var(--jade); color:#fff; border:none; cursor:pointer;
+    padding:12px; border-radius:8px; font-family:'Jost'; font-size:14px; font-weight:600;
+  }
 
   .ad-banner{
     height:150px; margin:32px calc(-6vw) 8px; overflow:hidden;
@@ -651,14 +673,21 @@
 
 <section class="products" id="products">
   <div class="time-sale-block" id="timeSaleBlock" style="display:none;">
-    <div class="time-sale-head">
-      <div class="hash-head" style="margin:0;">⏰ TIME SALE</div>
-      <div class="time-sale-timer" id="timeSaleTimer">--:--:--</div>
+    <div class="ts-eyebrow">ONLY AT MUGYEONG</div>
+    <div class="ts-title">TIME DEAL</div>
+    <div class="ts-timer" id="timeSaleTimer">
+      <div class="ts-unit"><span class="ts-num" id="tsD">0</span><span class="ts-lbl">DAYS</span></div>
+      <div class="ts-colon">:</div>
+      <div class="ts-unit"><span class="ts-num" id="tsH">00</span><span class="ts-lbl">HRS</span></div>
+      <div class="ts-colon">:</div>
+      <div class="ts-unit"><span class="ts-num" id="tsM">00</span><span class="ts-lbl">MINS</span></div>
+      <div class="ts-colon">:</div>
+      <div class="ts-unit"><span class="ts-num" id="tsS">00</span><span class="ts-lbl">SECS</span></div>
     </div>
-    <div class="ts-row-wrap">
-      <button class="ts-arrow prev" onclick="tsScroll(-1)">‹</button>
-      <div class="product-row" id="grid-TIMESALE"></div>
-      <button class="ts-arrow next" onclick="tsScroll(1)">›</button>
+    <div class="ts-stage-wrap">
+      <button class="ts-arrow prev" onclick="tsPrev()">‹</button>
+      <div class="ts-stage" id="tsStage"></div>
+      <button class="ts-arrow next" onclick="tsNext()">›</button>
     </div>
   </div>
 
@@ -873,12 +902,12 @@
     source = source.filter(matchesSearch);
 
     // Time Sale
-    const tsItems = source.filter(p => (p.section || 'BEST') === 'TIMESALE');
+    tsProducts = source.filter(p => (p.section || 'BEST') === 'TIMESALE');
     const tsBlock = document.getElementById('timeSaleBlock');
-    const tsGrid = document.getElementById('grid-TIMESALE');
-    if(tsItems.length > 0){
+    if(tsProducts.length > 0){
       tsBlock.style.display = 'block';
-      tsGrid.innerHTML = tsItems.map((p, i) => renderCard(p, i)).join('');
+      tsIndex = 0;
+      renderTimeSaleStage();
     } else {
       tsBlock.style.display = 'none';
     }
@@ -1191,28 +1220,50 @@
       categories.map(c => `<button class="chip" onclick="filterProducts('${c}', event)">${c}</button>`).join('');
   }
 
+  let tsProducts = [];
+  let tsIndex = 0;
+
+  function renderTimeSaleStage(){
+    const stage = document.getElementById('tsStage');
+    if(!stage || tsProducts.length === 0) return;
+    const p = tsProducts[tsIndex];
+    const newPrice = p.discount ? Math.round(p.price*(100-p.discount)/100/1000)*1000 : p.price;
+    const imgHtml = p.image1
+      ? `<div class="ts-img"><img src="${p.image1}" alt=""></div>`
+      : `<div class="ts-img"><div class="card-art ${p.art||'art-1'}" style="width:100%;height:100%;"><div class="bottle"></div></div></div>`;
+    stage.innerHTML = `
+      ${imgHtml}
+      <div class="ts-info" onclick="openProductDetail('${p.id}')" style="cursor:pointer;">
+        <div class="ts-brand">MUGYEONG</div>
+        <div class="ts-name">${p.name}</div>
+        ${p.discount ? `<div class="ts-old">${p.price.toLocaleString('ru-RU')} so'm</div>` : ''}
+        <div class="ts-new">${newPrice.toLocaleString('ru-RU')} so'm</div>
+        ${p.discount ? `<div class="ts-off">(${p.discount}% OFF)</div>` : ''}
+        <div class="ts-actions">
+          <button class="ts-cart" onclick="event.stopPropagation(); addToCart('${p.id}',event)">Savatga qo'shish</button>
+        </div>
+      </div>`;
+  }
+
+  function tsNext(){ if(tsProducts.length){ tsIndex=(tsIndex+1)%tsProducts.length; renderTimeSaleStage(); } }
+  function tsPrev(){ if(tsProducts.length){ tsIndex=(tsIndex-1+tsProducts.length)%tsProducts.length; renderTimeSaleStage(); } }
+
+  let tsAuto = setInterval(tsNext, 5000);
+
   function startTimeSaleTimer(){
     const block = document.getElementById('timeSaleBlock');
-    const timerEl = document.getElementById('timeSaleTimer');
-    if(!timeSaleEnd || isNaN(timeSaleEnd.getTime())){
-      return;
-    }
+    if(!timeSaleEnd || isNaN(timeSaleEnd.getTime())) return;
     function tick(){
       const now = new Date();
-      let diff = Math.floor((timeSaleEnd - now) / 1000);
-      if(diff <= 0){ timerEl.textContent = "Tugadi"; return; }
-      const h = String(Math.floor(diff/3600)).padStart(2,'0');
-      const m = String(Math.floor((diff%3600)/60)).padStart(2,'0');
-      const s = String(diff%60).padStart(2,'0');
-      timerEl.textContent = `${h}:${m}:${s}`;
+      let diff = Math.floor((timeSaleEnd - now)/1000);
+      if(diff < 0) diff = 0;
+      document.getElementById('tsD').textContent = Math.floor(diff/86400);
+      document.getElementById('tsH').textContent = String(Math.floor((diff%86400)/3600)).padStart(2,'0');
+      document.getElementById('tsM').textContent = String(Math.floor((diff%3600)/60)).padStart(2,'0');
+      document.getElementById('tsS').textContent = String(diff%60).padStart(2,'0');
     }
     tick();
     setInterval(tick, 1000);
-  }
-
-  function tsScroll(dir){
-    const row = document.getElementById('grid-TIMESALE');
-    if(row) row.scrollBy({ left: dir * row.clientWidth * 0.8, behavior:'smooth' });
   }
 
   async function loadAdBanners(){
