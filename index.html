@@ -306,8 +306,9 @@
   }
   .product-row{
     display:flex; gap:14px; overflow-x:auto; scroll-snap-type:x mandatory;
-    -webkit-overflow-scrolling:touch; padding-bottom:6px;
+    -webkit-overflow-scrolling:touch; padding-bottom:6px; margin-bottom:12px;
   }
+  .product-row:last-child{margin-bottom:0;}
   .product-row::-webkit-scrollbar{display:none;}
   .product-row .card{
     flex:0 0 auto; scroll-snap-align:start;
@@ -919,9 +920,15 @@
       const items = source.filter(p => (p.section || 'BEST') === sec);
       if(items.length === 0){
         grid.innerHTML = `<div class="no-results">Bu bo'limda mahsulot yo'q</div>`;
-      } else {
-        grid.innerHTML = `<div class="product-row">${items.map((p, i) => renderCard(p, i)).join('')}</div>`;
+        return;
       }
+      // 3 qatorga bolish
+      const rows = [[], [], []];
+      items.forEach((p, i) => rows[i % 3].push(p));
+      grid.innerHTML = rows
+        .filter(r => r.length > 0)
+        .map(r => `<div class="product-row">${r.map((p, i) => renderCard(p, i)).join('')}</div>`)
+        .join('');
     });
   }
 
