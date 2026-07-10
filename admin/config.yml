@@ -6,6 +6,25 @@ media_folder: uploads
 public_folder: /uploads
 
 collections:
+  - name: settings
+    label: Sozlamalar
+    files:
+      - file: settings.json
+        label: Kategoriyalar va Time Sale
+        name: settings
+        fields:
+          - label: Kategoriyalar (turkumlar)
+            name: categories
+            widget: list
+            field:
+              label: Kategoriya nomi
+              name: name
+              widget: string
+          - label: Time Sale tugash sanasi va vaqti
+            name: timeSaleEnd
+            widget: datetime
+            required: false
+
   - name: banners
     label: Bannerlar
     files:
@@ -17,79 +36,51 @@ collections:
             name: items
             widget: list
             fields:
-              - label: Nishon matni (masalan YANGI yoki -10%)
+              - label: Nishon matni masalan YANGI yoki -10%
                 name: badge
                 widget: string
                 required: false
-
               - label: Kichik sarlavha
                 name: eyebrow
                 widget: string
                 required: false
-
               - label: Katta sarlavha
                 name: title
                 widget: string
-
               - label: Qisqa matn
                 name: subtitle
                 widget: string
                 required: false
-
               - label: Tugma matni
                 name: button
                 widget: string
                 required: false
-
-              - label: Fon rasmi
+              - label: Fon rasmi, yuklasangiz butun bannerni qoplaydi
                 name: image
                 widget: image
                 required: false
-
-              - label: Fon rangi
+              - label: Fon rangi agar rasm bolmasa
                 name: color
                 widget: select
-                options:
-                  - green
-                  - olive
-                  - gold
+                options: [green, olive, gold]
                 required: false
 
-  - name: midbanners
+  - name: adbanners
     label: Ortadagi reklama bannerlari
     files:
-      - file: midbanners.json
-        label: BEST va NEW dan keyingi bannerlar
-        name: midbanners
-        fields:
-          - label: Best dan keyingi banner rasmi
-            name: afterBest
-            widget: image
-            required: false
-
-          - label: New dan keyingi banner rasmi
-            name: afterNew
-            widget: image
-            required: false
-
-  - name: adbanners
-    label: Reklama bannerlari
-    files:
       - file: adbanners.json
-        label: BEST / NEW / EVENT orasidagi bannerlar
+        label: BEST/NEW/EVENT orasidagi bannerlar
         name: adbanners
         fields:
-          - label: Banner 1
+          - label: Banner 1 (BEST dan keyin) rasmi
             name: banner1
             widget: image
             required: false
-
-          - label: Banner 2
+          - label: Banner 2 (NEW dan keyin) rasmi
             name: banner2
             widget: image
             required: false
-
-          - label: Banner 3
+          - label: Banner 3 (make-up, EVENT dan keyin) rasmi
             name: banner3
             widget: image
             required: false
@@ -98,7 +89,7 @@ collections:
     label: Mahsulotlar
     files:
       - file: products.json
-        label: Mahsulotlar ro'yxati
+        label: Mahsulotlar royxati
         name: products
         fields:
           - label: Mahsulotlar
@@ -108,61 +99,44 @@ collections:
               - label: ID
                 name: id
                 widget: string
-
-              - label: Turkum
+              - label: Turkum masalan Seram yoki Toner
                 name: tag
                 widget: string
-
-              - label: Bo'lim
-                name: section
-                widget: select
-                options:
-                  - BEST
-                  - NEW
-                  - EVENT
-                default: BEST
-
               - label: Nomi
                 name: name
                 widget: string
-
               - label: Qisqa tavsif
                 name: desc
                 widget: string
-
               - label: Batafsil tavsif
                 name: details
                 widget: text
                 required: false
-
-              - label: Narx
+              - label: Narx som faqat raqam
                 name: price
                 widget: number
-
-              - label: Chegirma (%)
+              - label: Chegirma foizi masalan 10 yoki 15, bosh qoldirsa chegirmasiz
                 name: discount
                 widget: number
                 required: false
-
               - label: Rang uslubi
                 name: art
                 widget: select
-                options:
-                  - art-1
-                  - art-2
-                  - art-3
-                  - art-4
-
+                options: [art-1, art-2, art-3, art-4]
+              - label: Bolim
+                name: section
+                widget: select
+                options: [TIMESALE, BEST, NEW, EVENT]
+                default: BEST
+                required: false
               - label: Rasm 1
                 name: image1
                 widget: image
                 required: false
-
               - label: Rasm 2
                 name: image2
                 widget: image
                 required: false
-
               - label: Rasm 3
                 name: image3
                 widget: image
