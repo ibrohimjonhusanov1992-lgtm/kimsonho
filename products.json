@@ -8,7 +8,7 @@
       "price": 185000,
       "art": "art-1",
       "discount": 10,
-      "section": "EVENT"
+      "section": "TIMESALE"
     },
     {
       "id": "p2",
@@ -17,7 +17,7 @@
       "desc": "Terini yorqinlashtiruvchi va tekislovchi seram",
       "price": 195000,
       "art": "art-2",
-      "section": "NEW"
+      "section": "TIMESALE"
     },
     {
       "id": "p3",
@@ -27,7 +27,7 @@
       "price": 175000,
       "art": "art-3",
       "discount": 15,
-      "section": "EVENT"
+      "section": "TIMESALE"
     },
     {
       "id": "p4",
