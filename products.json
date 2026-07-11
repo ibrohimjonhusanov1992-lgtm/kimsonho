@@ -22,49 +22,60 @@
       "id": "m2"
     },
     {
-      "id": "m3",
-      "tag": "Niqob",
-      "name": "Jenshen Pachi",
-      "desc": "Jenshen ekstraktli tiklovchi patch-niqob",
-      "price": 800,
       "art": "art-3",
-      "section": "BEST"
+      "section": "BEST",
+      "price": 800,
+      "name": "Jenshen Pachi",
+      "desc": "Jenshen ekstraktli tiklovchi patch ",
+      "image1": "/uploads/img_9701.jpeg",
+      "image2": "/uploads/img_9702.webp",
+      "tag": "Niqob",
+      "id": "m3"
     },
     {
-      "id": "m4",
-      "tag": "Tozalash",
+      "art": "art-4",
+      "section": "BEST",
+      "price": 8500,
       "name": "Easy mind Cleansing Oil",
       "desc": "Bo'yoq va ifloslikni yumshoq tozalovchi yog'",
-      "price": 8500,
-      "art": "art-4",
-      "section": "BEST"
+      "image1": "/uploads/img_9626.jpeg",
+      "image2": "/uploads/img_9625.jpeg",
+      "tag": "Tozalash",
+      "id": "m4"
     },
     {
-      "id": "m5",
-      "tag": "Soch",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 8000,
       "name": "Easy mind Hair Tonic",
       "desc": "Soch ildizini mustahkamlovchi tonik",
-      "price": 8000,
-      "art": "art-1",
-      "section": "BEST"
+      "image1": "/uploads/img_9628.jpeg",
+      "image2": "/uploads/img_9627.jpeg",
+      "tag": "Soch",
+      "id": "m5"
     },
     {
-      "id": "m6",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "BEST",
+      "price": 10000,
       "name": "roundlab Sprey Mistlik SPF",
       "desc": "Quyoshdan himoya qiluvchi sprey-mist",
-      "price": 10000,
-      "art": "art-2",
-      "section": "BEST"
+      "image1": "/uploads/img_9703.jpeg",
+      "image2": "/uploads/img_9704.webp",
+      "tag": "SPF",
+      "id": "m6"
     },
     {
-      "id": "m7",
-      "tag": "Krem",
+      "art": "art-3",
+      "section": "BEST",
+      "price": 7000,
       "name": "Avelium Retinol Ko'z Krem",
       "desc": "Retinol bilan ko'z atrofi terisi uchun yoshartiruvchi krem",
-      "price": 7000,
-      "art": "art-3",
-      "section": "BEST"
+      "image1": "/uploads/img_9629.jpeg",
+      "image2": "/uploads/img_9631.jpeg",
+      "image3": "/uploads/img_9630.jpeg",
+      "tag": "Krem",
+      "id": "m7"
     },
     {
       "id": "m8",
