@@ -78,22 +78,27 @@
       "id": "m7"
     },
     {
-      "id": "m8",
-      "tag": "Krem",
+      "art": "art-4",
+      "section": "BEST",
+      "price": 12000,
       "name": "AHC Aura Secret Toneup Cream",
       "desc": "Teri rangini tekislovchi va yoritilishi beruvchi krem",
-      "price": 12000,
-      "art": "art-4",
-      "section": "BEST"
+      "image1": "/uploads/img_9633.webp",
+      "image2": "/uploads/img_9634.webp",
+      "image3": "/uploads/img_9635.webp",
+      "tag": "Krem",
+      "id": "m8"
     },
     {
-      "id": "m9",
-      "tag": "Niqob",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 2500,
       "name": "Canemazole Svecha",
       "desc": "Terini tozalovchi maxsus vosita",
-      "price": 2500,
-      "art": "art-1",
-      "section": "BEST"
+      "image1": "/uploads/img_9706.jpeg",
+      "image2": "/uploads/img_9705.webp",
+      "tag": "Niqob",
+      "id": "m9"
     },
     {
       "id": "m10",
@@ -102,34 +107,41 @@
       "desc": "Bolalar uchun multivitamin qo'shimchasi",
       "price": 6000,
       "art": "art-2",
-      "section": "BEST"
+      "section": "BEST",
+      "image1": "/uploads/img_9776.jpeg"
     },
     {
-      "id": "m11",
-      "tag": "Vitamin",
+      "art": "art-3",
+      "section": "BEST",
+      "price": 10500,
       "name": "Naturalize Omega 3",
       "desc": "Omega-3 yog' kislotalari qo'shimchasi",
-      "price": 10500,
-      "art": "art-3",
-      "section": "BEST"
+      "image1": "/uploads/img_9637.png",
+      "image2": "/uploads/img_9636.jpeg",
+      "tag": "Vitamin",
+      "id": "m11"
     },
     {
-      "id": "m12",
-      "tag": "Krem",
+      "art": "art-4",
+      "section": "BEST",
+      "price": 3500,
       "name": "Melosso Aqua Cream",
       "desc": "Namlikni ta'minlovchi yengil suvli krem",
-      "price": 3500,
-      "art": "art-4",
-      "section": "BEST"
+      "image1": "/uploads/img_9638.jpeg",
+      "image2": "/uploads/img_9639.jpeg",
+      "tag": "Krem",
+      "id": "m12"
     },
     {
-      "id": "m13",
-      "tag": "Krem",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 3500,
       "name": "Melosso Collagen Cream",
       "desc": "Kollagen bilan elastiklikni oshiruvchi krem",
-      "price": 3500,
-      "art": "art-1",
-      "section": "BEST"
+      "image1": "/uploads/img_9641.jpeg",
+      "image2": "/uploads/img_9639.jpeg",
+      "tag": "Krem",
+      "id": "m13"
     },
     {
       "id": "m14",
