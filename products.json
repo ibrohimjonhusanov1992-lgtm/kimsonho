@@ -7,16 +7,19 @@
       "desc": "Terini tozalab, kislorod bilan boyituvchi niqob",
       "price": 14000,
       "art": "art-1",
-      "section": "BEST"
+      "section": "BEST",
+      "image1": "/uploads/img_9698.jpeg"
     },
     {
-      "id": "m2",
-      "tag": "Toplam",
+      "art": "art-2",
+      "section": "BEST",
+      "price": 17000,
       "name": "axisy Duo Set",
       "desc": "Ikki bosqichli parvarish to'plami",
-      "price": 17000,
-      "art": "art-2",
-      "section": "BEST"
+      "image1": "/uploads/img_9699.webp",
+      "image2": "/uploads/img_9700.webp",
+      "tag": "Toplam",
+      "id": "m2"
     },
     {
       "id": "m3",
