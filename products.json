@@ -694,6 +694,62 @@
       "image2": "/uploads/img_9820.webp",
       "tag": "maska",
       "id": "m73"
+    },
+    {
+      "discount": 5,
+      "art": "art-3",
+      "section": "BEST",
+      "price": 160000,
+      "name": "pore +dark spot brightenning serum",
+      "desc": "serum",
+      "image1": "/uploads/img_9827.webp",
+      "image2": "/uploads/img_9826.jpeg",
+      "tag": "serum",
+      "id": "m74"
+    },
+    {
+      "art": "art-2",
+      "section": "BEST",
+      "price": 150000,
+      "name": "Brightening pad 40pads",
+      "desc": "pad",
+      "image1": "/uploads/img_9830.webp",
+      "image2": "/uploads/img_9829.webp",
+      "tag": "pad",
+      "id": "m75"
+    },
+    {
+      "art": "art-3",
+      "section": "BEST",
+      "price": 150000,
+      "name": "Rough Dull skin",
+      "desc": "skin",
+      "image1": "/uploads/img_9831.jpeg",
+      "image2": "/uploads/img_9832.png",
+      "tag": "cream",
+      "id": "m76"
+    },
+    {
+      "art": "art-2",
+      "section": "BEST",
+      "price": 150000,
+      "name": "Flaky Dull body skin",
+      "desc": "skin",
+      "image1": "/uploads/img_9833.webp",
+      "image2": "/uploads/img_9834.webp",
+      "tag": "Body skin",
+      "id": "m77"
+    },
+    {
+      "art": "art-1",
+      "section": "BEST",
+      "price": 150000,
+      "name": "Rough dull skin",
+      "desc": "skin",
+      "image1": "/uploads/img_9836.webp",
+      "image2": "/uploads/img_9835.webp",
+      "tag": "skin",
+      "id": "m78"
     }
   ]
 }
