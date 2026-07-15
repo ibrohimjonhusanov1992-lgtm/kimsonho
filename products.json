@@ -750,6 +750,43 @@
       "image2": "/uploads/img_9835.webp",
       "tag": "skin",
       "id": "m78"
+    },
+    {
+      "discount": 10,
+      "art": "art-1",
+      "section": "BEST",
+      "price": 170000,
+      "name": "Combination aily skin",
+      "desc": "cleansing ",
+      "image1": "/uploads/img_9837.jpeg",
+      "image2": "/uploads/img_9838.jpeg",
+      "tag": "cleansing",
+      "id": "m79"
+    },
+    {
+      "discount": 10,
+      "art": "art-2",
+      "section": "BEST",
+      "price": 210000,
+      "name": "Blemished Acne skin",
+      "desc": "Acne skin",
+      "image1": "/uploads/img_9839.jpeg",
+      "image2": "/uploads/img_9841.jpeg",
+      "tag": "skin",
+      "id": "m80"
+    },
+    {
+      "discount": 10,
+      "art": "art-4",
+      "section": "BEST",
+      "price": 210000,
+      "name": "Blemished Suffering Body skin",
+      "desc": "Body skin",
+      "image1": "/uploads/img_9842.png",
+      "image2": "/uploads/img_9843.jpeg",
+      "image3": "/uploads/img_9844.webp",
+      "tag": "skin",
+      "id": "m81"
     }
   ]
 }
