@@ -646,6 +646,54 @@
       "price": 12500,
       "art": "art-3",
       "section": "NEW"
+    },
+    {
+      "discount": 5,
+      "art": "art-1",
+      "section": "BEST",
+      "price": 80000,
+      "name": "The Vita-A",
+      "desc": "maska",
+      "image1": "/uploads/img_9816.webp",
+      "image2": "/uploads/img_9818.jpeg",
+      "tag": "maska",
+      "id": "m70"
+    },
+    {
+      "discount": 5,
+      "art": "art-2",
+      "section": "BEST",
+      "price": 30000,
+      "name": "Noni ampoule mask ",
+      "desc": "maska",
+      "image1": "/uploads/img_9819.jpeg",
+      "image2": "/uploads/img_9822.png",
+      "tag": "maska",
+      "id": "m71"
+    },
+    {
+      "discount": 5,
+      "art": "art-3",
+      "section": "BEST",
+      "price": 30000,
+      "name": "poke+Dark spot      Brightenning serum mask",
+      "desc": "maska",
+      "image1": "/uploads/img_9823.webp",
+      "image2": "/uploads/img_9824.webp",
+      "tag": "maska",
+      "id": "m72"
+    },
+    {
+      "discount": 5,
+      "art": "art-4",
+      "section": "BEST",
+      "price": 30000,
+      "name": "Cica serum mask",
+      "desc": "maska",
+      "image1": "/uploads/img_9821.webp",
+      "image2": "/uploads/img_9820.webp",
+      "tag": "maska",
+      "id": "m73"
     }
   ]
 }
