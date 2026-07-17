@@ -44,17 +44,6 @@
       "id": "m4"
     },
     {
-      "art": "art-1",
-      "section": "BEST",
-      "price": 8000,
-      "name": "Easy mind Hair Tonic",
-      "desc": "Soch ildizini mustahkamlovchi tonik",
-      "image1": "/uploads/img_9628.jpeg",
-      "image2": "/uploads/img_9627.jpeg",
-      "tag": "Soch",
-      "id": "m5"
-    },
-    {
       "art": "art-2",
       "section": "BEST",
       "price": 10000,
@@ -64,6 +53,17 @@
       "image2": "/uploads/img_9704.webp",
       "tag": "SPF",
       "id": "m6"
+    },
+    {
+      "art": "art-1",
+      "section": "BEST",
+      "price": 8000,
+      "name": "Easy mind Hair Tonic",
+      "desc": "Soch ildizini mustahkamlovchi tonik",
+      "image1": "/uploads/img_9628.jpeg",
+      "image2": "/uploads/img_9627.jpeg",
+      "tag": "Soch",
+      "id": "m5"
     },
     {
       "art": "art-3",
@@ -144,13 +144,15 @@
       "id": "m13"
     },
     {
-      "id": "m14",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "NEW",
+      "price": 12000,
       "name": "roundlab Brich Juice Sun Cushion",
       "desc": "Qayin suvli quyoshdan himoya kushioni",
-      "price": 12000,
-      "art": "art-2",
-      "section": "NEW"
+      "image1": "/uploads/img_9686.jpeg",
+      "image2": "/uploads/img_9687.webp",
+      "tag": "SPF",
+      "id": "m14"
     },
     {
       "id": "m15",
@@ -159,79 +161,96 @@
       "desc": "100 soatlik namlantiruvchi krem",
       "price": 8500,
       "art": "art-3",
-      "section": "NEW"
+      "section": "NEW",
+      "image1": "/uploads/img_9751.webp"
     },
     {
-      "id": "m16",
-      "tag": "Tozalash",
+      "art": "art-4",
+      "section": "NEW",
+      "price": 14000,
       "name": "Anua Enzyme Powder Pudra",
       "desc": "Ferment asosidagi tozalovchi kukun",
-      "price": 14000,
-      "art": "art-4",
-      "section": "NEW"
+      "image1": "/uploads/img_9752.png",
+      "image2": "/uploads/img_9753.webp",
+      "tag": "Tozalash",
+      "id": "m16"
     },
     {
-      "id": "m17",
-      "tag": "SPF",
+      "art": "art-1",
+      "section": "NEW",
+      "price": 8000,
       "name": "centella Stikli SPF",
       "desc": "Sentella ekstraktli stik ko'rinishidagi quyosh himoyasi",
-      "price": 8000,
-      "art": "art-1",
-      "section": "NEW"
+      "image1": "/uploads/img_9710.jpeg",
+      "image2": "/uploads/img_9709.webp",
+      "tag": "SPF",
+      "id": "m17"
     },
     {
-      "id": "m18",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "BEST",
+      "price": 10000,
       "name": "Round lab Ko'k SPF",
       "desc": "Kunlik quyoshdan himoya kremi",
-      "price": 10000,
-      "art": "art-2",
-      "section": "NEW"
+      "image1": "/uploads/img_9754.jpeg",
+      "image2": "/uploads/img_9755.webp",
+      "tag": "SPF",
+      "id": "m18"
     },
     {
-      "id": "m19",
-      "tag": "Tana",
+      "art": "art-3",
+      "section": "EVENT",
+      "price": 4800,
       "name": "Underarm 3D Under Arm",
       "desc": "Qo'ltiq osti terisi uchun parvarish vositasi",
-      "price": 4800,
-      "art": "art-3",
-      "section": "NEW"
+      "image1": "/uploads/img_9758.webp",
+      "image2": "/uploads/img_9757.jpeg",
+      "tag": "Tana",
+      "id": "m19"
     },
     {
-      "id": "m20",
-      "tag": "Seram",
+      "art": "art-4",
+      "section": "NEW",
+      "price": 8200,
       "name": "Axis-y Serum",
       "desc": "Terini tiklovchi va namlantiruvchi seram",
-      "price": 8200,
-      "art": "art-4",
-      "section": "NEW"
+      "image1": "/uploads/img_9646.jpeg",
+      "image2": "/uploads/img_9647.jpeg",
+      "tag": "Seram",
+      "id": "m20"
     },
     {
-      "id": "m21",
-      "tag": "Seram",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 11000,
       "name": "celimax Retinol Shot Tightening Booster",
       "desc": "Retinol bilan terini taranglashtiruvchi buster, 15ml",
-      "price": 11000,
-      "art": "art-1",
-      "section": "NEW"
+      "image1": "/uploads/img_9759.png",
+      "image2": "/uploads/img_9760.jpeg",
+      "tag": "Seram",
+      "id": "m21"
     },
     {
-      "id": "m22",
-      "tag": "Krem",
+      "art": "art-2",
+      "section": "NEW",
+      "price": 7000,
       "name": "Ronas CC Krem",
       "desc": "Teri rangini tenglashtiruvchi CC krem",
-      "price": 7000,
-      "art": "art-2",
-      "section": "NEW"
+      "image1": "/uploads/img_9873.png",
+      "image2": "/uploads/img_9874.png",
+      "tag": "Krem",
+      "id": "m22"
     },
     {
-      "id": "m23",
-      "tag": "Krem",
+      "art": "art-3",
+      "section": "NEW",
+      "price": 15500,
       "name": "Reedle Shot 100 Li Krem",
       "desc": "Faol moddalarni teriga singdiruvchi krem",
-      "price": 15500,
-      "art": "art-3",
-      "section": "NEW"
+      "image1": "/uploads/img_9761.jpeg",
+      "image2": "/uploads/img_9762.jpeg",
+      "tag": "Krem",
+      "id": "m23"
     },
     {
       "id": "m24",
