@@ -5,7 +5,7 @@
       "tag": "Niqob",
       "name": "Karboksil Maska",
       "desc": "Terini tozalab, kislorod bilan boyituvchi niqob",
-      "price": 14000,
+      "price": 230000,
       "art": "art-1",
       "section": "EVENT",
       "image1": "/uploads/img_9698.jpeg"
@@ -13,7 +13,7 @@
     {
       "art": "art-2",
       "section": "BEST",
-      "price": 17000,
+      "price": 243000,
       "name": "axisy Duo Set",
       "desc": "Ikki bosqichli parvarish to'plami",
       "image1": "/uploads/img_9699.webp",
@@ -24,7 +24,7 @@
     {
       "art": "art-3",
       "section": "BEST",
-      "price": 800,
+      "price": 15000,
       "name": "Jenshen Pachi",
       "desc": "Jenshen ekstraktli tiklovchi patch ",
       "image1": "/uploads/img_9701.jpeg",
@@ -34,8 +34,8 @@
     },
     {
       "art": "art-4",
-      "section": "BEST",
-      "price": 8500,
+      "section": "NEW",
+      "price": 150000,
       "name": "Easy mind Cleansing Oil",
       "desc": "Bo'yoq va ifloslikni yumshoq tozalovchi yog'",
       "image1": "/uploads/img_9626.jpeg",
@@ -45,8 +45,8 @@
     },
     {
       "art": "art-2",
-      "section": "BEST",
-      "price": 10000,
+      "section": "NEW",
+      "price": 150000,
       "name": "roundlab Sprey Mistlik SPF",
       "desc": "Quyoshdan himoya qiluvchi sprey-mist",
       "image1": "/uploads/img_9703.jpeg",
@@ -56,8 +56,8 @@
     },
     {
       "art": "art-1",
-      "section": "BEST",
-      "price": 8000,
+      "section": "NEW",
+      "price": 140000,
       "name": "Easy mind Hair Tonic",
       "desc": "Soch ildizini mustahkamlovchi tonik",
       "image1": "/uploads/img_9628.jpeg",
@@ -68,7 +68,7 @@
     {
       "art": "art-3",
       "section": "BEST",
-      "price": 7000,
+      "price": 100000,
       "name": "Avelium Retinol Ko'z Krem",
       "desc": "Retinol bilan ko'z atrofi terisi uchun yoshartiruvchi krem",
       "image1": "/uploads/img_9629.jpeg",
@@ -80,7 +80,7 @@
     {
       "art": "art-4",
       "section": "BEST",
-      "price": 12000,
+      "price": 170000,
       "name": "AHC Aura Secret Toneup Cream",
       "desc": "Teri rangini tekislovchi va yoritilishi beruvchi krem",
       "image1": "/uploads/img_9633.webp",
@@ -92,7 +92,7 @@
     {
       "art": "art-1",
       "section": "BEST",
-      "price": 2500,
+      "price": 35000,
       "name": "Canemazole Svecha",
       "desc": "Terini tozalovchi maxsus vosita",
       "image1": "/uploads/img_9706.jpeg",
@@ -105,7 +105,7 @@
       "tag": "Vitamin",
       "name": "Vitasub Kids Multivitamin",
       "desc": "Bolalar uchun multivitamin qo'shimchasi",
-      "price": 6000,
+      "price": 116000,
       "art": "art-2",
       "section": "BEST",
       "image1": "/uploads/img_9776.jpeg"
@@ -113,7 +113,7 @@
     {
       "art": "art-3",
       "section": "BEST",
-      "price": 10500,
+      "price": 165000,
       "name": "Naturalize Omega 3",
       "desc": "Omega-3 yog' kislotalari qo'shimchasi",
       "image1": "/uploads/img_9637.png",
@@ -124,7 +124,7 @@
     {
       "art": "art-4",
       "section": "BEST",
-      "price": 3500,
+      "price": 65000,
       "name": "Melosso Aqua Cream",
       "desc": "Namlikni ta'minlovchi yengil suvli krem",
       "image1": "/uploads/img_9638.jpeg",
@@ -135,7 +135,7 @@
     {
       "art": "art-1",
       "section": "BEST",
-      "price": 3500,
+      "price": 65000,
       "name": "Melosso Collagen Cream",
       "desc": "Kollagen bilan elastiklikni oshiruvchi krem",
       "image1": "/uploads/img_9641.jpeg",
