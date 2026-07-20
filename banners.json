@@ -19,17 +19,21 @@
       "color": "olive"
     },
     {
-      "badge": "BEPUL",
+      "badge": "2kun ichida",
       "eyebrow": "Yetkazib berish",
-      "title": "2 ta mahsulot - bepul yetkazib berish",
+      "title": " mahsulotni xafsiz yetkazib berish",
       "subtitle": "Toshkent bo'ylab 1-2 kunda yetib boradi",
       "button": "Batafsil",
-      "image": "/uploads/img_9841.jpeg",
+      "image": "/uploads/img_9765.jpeg",
       "color": "gold"
     },
     {
-      "image": "/uploads/img_9573.webp",
-      "title": "Vitamin c"
+      "image": "/uploads/img_9754.jpeg",
+      "title": "Round Lab SPF",
+      "badge": "5%",
+      "eyebrow": "Orginal",
+      "button": "Koreadan tog'ridan tog'ri ",
+      "color": "olive"
     }
   ]
 }
