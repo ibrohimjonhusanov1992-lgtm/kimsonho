@@ -703,46 +703,53 @@
       "tag": "Krem",
       "name": "Samsung Jenshenli BB Cream",
       "desc": "Jenshen ekstraktli BB krem",
-      "price": 140000,
+      "price": 125000,
       "art": "art-3",
       "section": "BEST",
       "image1": "/uploads/img_9660.jpeg"
     },
     {
-      "id": "m66",
-      "tag": "Niqob",
+      "art": "art-4",
+      "section": "NEW",
+      "price": 7000,
       "name": "Easy mind Maska Hyaluron",
       "desc": "Gialuronli namlantiruvchi niqob",
-      "price": 2500,
-      "art": "art-4",
-      "section": "NEW"
+      "image1": "/uploads/img_9661.jpeg",
+      "image2": "/uploads/img_9662.jpeg",
+      "tag": "Niqob",
+      "id": "m66"
     },
     {
       "id": "m67",
       "tag": "Niqob",
       "name": "Easy mind Maska Vitaminli (limon)",
       "desc": "Limon vitaminli yorituvchi niqob",
-      "price": 2500,
+      "price": 7000,
       "art": "art-1",
-      "section": "EVENT"
+      "section": "EVENT",
+      "image1": "/uploads/img_9667.jpeg"
     },
     {
       "id": "m68",
       "tag": "Niqob",
       "name": "Easy mind Tea Tree Maska",
       "desc": "Choy daraxti bilan akne teri uchun niqob",
-      "price": 2500,
+      "price": 7000,
       "art": "art-2",
-      "section": "BEST"
+      "section": "BEST",
+      "image1": "/uploads/img_9666.jpeg"
     },
     {
-      "id": "m69",
-      "tag": "Krem",
+      "discount": 5,
+      "art": "art-3",
+      "section": "NEW",
+      "price": 200000,
       "name": "snow white Mela Stop Krem",
       "desc": "Dog'larga qarshi oqartiruvchi krem",
-      "price": 12500,
-      "art": "art-3",
-      "section": "NEW"
+      "image1": "/uploads/img_9695.jpeg",
+      "image2": "/uploads/img_9696.webp",
+      "tag": "Krem",
+      "id": "m69"
     },
     {
       "discount": 5,
