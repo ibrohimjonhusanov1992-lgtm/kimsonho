@@ -558,11 +558,11 @@
     {
       "art": "art-2",
       "section": "EVENT",
-      "price": 105000,
+      "price": 125000,
       "name": "Anua Heartleaf 77% Soothing Toner 250ml",
       "desc": "Heartleaf 77% tinchlantiruvchi toner, 250ml",
-      "image1": "/uploads/img_9741.jpeg",
-      "image2": "/uploads/img_9740.jpeg",
+      "image1": "/uploads/img_9670.jpeg",
+      "image2": "/uploads/img_9669.jpeg",
       "tag": "Toner",
       "id": "m52"
     },
@@ -633,67 +633,80 @@
       "id": "m58"
     },
     {
-      "id": "m59",
-      "tag": "Atir",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 90000,
       "name": "Foellie Intim Atir Qora",
       "desc": "Intim gigiyena uchun atir",
-      "price": 7000,
-      "art": "art-1",
-      "section": "BEST"
+      "image1": "/uploads/img_9679.jpeg",
+      "image2": "/uploads/img_9680.png",
+      "tag": "Atir",
+      "id": "m59"
     },
     {
-      "id": "m60",
-      "tag": "Atir",
+      "art": "art-2",
+      "section": "NEW",
+      "price": 99000,
       "name": "foellie Eau de Noir",
       "desc": "Intim gigiyena atiri",
-      "price": 8000,
-      "art": "art-2",
-      "section": "NEW"
+      "image1": "/uploads/img_9677.jpeg",
+      "image2": "/uploads/img_9678.jpeg",
+      "tag": "Atir",
+      "id": "m60"
     },
     {
-      "id": "m61",
-      "tag": "SPF",
+      "art": "art-3",
+      "section": "EVENT",
+      "price": 165000,
       "name": "Seleve Spf",
       "desc": "Terini quyoshdan himoya qiluvchi vosita",
-      "price": 12000,
-      "art": "art-3",
-      "section": "EVENT"
+      "image1": "/uploads/img_9743.webp",
+      "image2": "/uploads/img_9742.webp",
+      "tag": "SPF",
+      "id": "m61"
     },
     {
-      "id": "m62",
-      "tag": "Krem",
+      "art": "art-4",
+      "section": "BEST",
+      "price": 170000,
       "name": "Dr. Althea Relief Cream Mist",
       "desc": "Tinchlantiruvchi krem-mist",
-      "price": 12000,
-      "art": "art-4",
-      "section": "BEST"
+      "image1": "/uploads/img_9744.jpeg",
+      "image2": "/uploads/img_9746.jpeg",
+      "tag": "Krem",
+      "id": "m62"
     },
     {
-      "id": "m63",
-      "tag": "Krem",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 195000,
       "name": "Dr.Althea 345 Krem",
       "desc": "Terini tiklovchi 345 krem",
-      "price": 14000,
-      "art": "art-1",
-      "section": "NEW"
+      "image1": "/uploads/img_9747.jpeg",
+      "image2": "/uploads/img_9748.webp",
+      "tag": "Krem",
+      "id": "m63"
     },
     {
-      "id": "m64",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "EVENT",
+      "price": 165000,
       "name": "TirTir Mask Fit Red Cushion SPF40 21N Ivory",
       "desc": "Yuzni tekislovchi kushion, SPF40, 21N Ivory rang",
-      "price": 12000,
-      "art": "art-2",
-      "section": "EVENT"
+      "image1": "/uploads/img_9750.jpeg",
+      "image2": "/uploads/img_9749.jpeg",
+      "tag": "SPF",
+      "id": "m64"
     },
     {
       "id": "m65",
       "tag": "Krem",
       "name": "Samsung Jenshenli BB Cream",
       "desc": "Jenshen ekstraktli BB krem",
-      "price": 8500,
+      "price": 140000,
       "art": "art-3",
-      "section": "BEST"
+      "section": "BEST",
+      "image1": "/uploads/img_9660.jpeg"
     },
     {
       "id": "m66",
