@@ -279,135 +279,162 @@
       "tag": "Tozalash",
       "name": "Dr. G Penka 30 ml",
       "desc": "Yumshoq ko'pikli yuvuvchi vosita, 30ml",
-      "price": 2500,
+      "price": 40000,
       "art": "art-2",
-      "section": "NEW"
+      "section": "NEW",
+      "image1": "/uploads/img_9899.webp"
     },
     {
-      "id": "m27",
-      "tag": "Tozalash",
+      "art": "art-3",
+      "section": "NEW",
+      "price": 150000,
       "name": "Solua Foam Cleanser",
       "desc": "Chuqur tozalovchi ko'pik",
-      "price": 9000,
-      "art": "art-3",
-      "section": "NEW"
+      "image1": "/uploads/img_9766.webp",
+      "image2": "/uploads/img_9765.jpeg",
+      "tag": "Tozalash",
+      "id": "m27"
     },
     {
       "id": "m28",
       "tag": "Krem",
       "name": "Solua Soothing Cream",
       "desc": "Terini tinchlantiruvchi krem",
-      "price": 8000,
+      "price": 140000,
       "art": "art-4",
-      "section": "NEW"
+      "section": "NEW",
+      "image1": "/uploads/img_9767.jpeg"
     },
     {
-      "id": "m29",
-      "tag": "Tozalash",
+      "art": "art-1",
+      "section": "NEW",
+      "price": 120000,
       "name": "Easy mind Acne Penka 200 ml",
       "desc": "Akne teri uchun tozalovchi ko'pik, 200ml",
-      "price": 6000,
-      "art": "art-1",
-      "section": "NEW"
+      "image1": "/uploads/img_9769.webp",
+      "image2": "/uploads/img_9770.webp",
+      "tag": "Tozalash",
+      "id": "m29"
     },
     {
       "id": "m30",
       "tag": "Krem",
       "name": "Beaute Vita-Collagen Tone-up Sun Cream",
       "desc": "Vitamin va kollagenli, teri rangini yorituvchi quyosh kremi",
-      "price": 3000,
+      "price": 60000,
       "art": "art-2",
-      "section": "NEW"
+      "section": "NEW",
+      "image1": "/uploads/img_9771.jpeg"
     },
     {
-      "id": "m31",
-      "tag": "Toner",
+      "art": "art-3",
+      "section": "EVENT",
+      "price": 160000,
       "name": "Axis-y Toner 125 ml",
       "desc": "Teri balansini tiklovchi toner, 125ml",
-      "price": 10000,
-      "art": "art-3",
-      "section": "EVENT"
+      "image1": "/uploads/img_9642.png",
+      "image2": "/uploads/img_9643.jpeg",
+      "tag": "Toner",
+      "id": "m31"
     },
     {
-      "id": "m32",
-      "tag": "Krem",
+      "art": "art-4",
+      "section": "EVENT",
+      "price": 125000,
       "name": "Axis-y Ko'z Krem",
       "desc": "Ko'z atrofi terisi uchun parvarish kremi",
-      "price": 9500,
-      "art": "art-4",
-      "section": "EVENT"
+      "image1": "/uploads/img_9644.webp",
+      "image2": "/uploads/img_9645.webp",
+      "tag": "Krem",
+      "id": "m32"
     },
     {
-      "id": "m33",
-      "tag": "Tozalash",
+      "art": "art-1",
+      "section": "EVENT",
+      "price": 120000,
       "name": "Axis-y Penka 1",
       "desc": "Yumshoq tozalovchi ko'pik",
-      "price": 7000,
-      "art": "art-1",
-      "section": "EVENT"
+      "image1": "/uploads/img_9648.webp",
+      "image2": "/uploads/img_9649.webp",
+      "tag": "Tozalash",
+      "id": "m33"
     },
     {
-      "id": "m34",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "EVENT",
+      "price": 140000,
       "name": "Axis-y SPF",
       "desc": "Kunlik quyoshdan himoya vositasi",
-      "price": 9500,
-      "art": "art-2",
-      "section": "EVENT"
+      "image1": "/uploads/img_9650.webp",
+      "image2": "/uploads/img_9651.webp",
+      "tag": "SPF",
+      "id": "m34"
     },
     {
-      "id": "m35",
-      "tag": "Niqob",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 7000,
       "name": "Easy Mind Maska Aloe",
       "desc": "Aloe ekstraktli tinchlantiruvchi niqob",
-      "price": 2500,
-      "art": "art-1",
-      "section": "BEST"
+      "image1": "/uploads/img_9707.jpeg",
+      "image2": "/uploads/img_9708.jpeg",
+      "tag": "Niqob",
+      "id": "m35"
     },
     {
-      "id": "m36",
-      "tag": "Tozalash",
+      "art": "art-2",
+      "section": "NEW",
+      "price": 70000,
       "name": "Lebelage Rice Cleansing Foam Set",
       "desc": "Guruchli tozalovchi ko'pik to'plami",
-      "price": 3000,
-      "art": "art-2",
-      "section": "NEW"
+      "image1": "/uploads/img_9711.jpeg",
+      "image2": "/uploads/img_9712.webp",
+      "tag": "Tozalash",
+      "id": "m36"
     },
     {
-      "id": "m37",
-      "tag": "Krem",
+      "art": "art-3",
+      "section": "EVENT",
+      "price": 65000,
       "name": "Tiger Sport Massage Cream",
       "desc": "Massaj uchun krem",
-      "price": 2500,
-      "art": "art-3",
-      "section": "EVENT"
+      "image1": "/uploads/img_9714.png",
+      "image2": "/uploads/img_9713.jpeg",
+      "tag": "Krem",
+      "id": "m37"
     },
     {
-      "id": "m38",
-      "tag": "Vitamin",
+      "art": "art-4",
+      "section": "BEST",
+      "price": 115000,
       "name": "Boto Halol Collagen 1 oylik",
       "desc": "Halol kollagen qo'shimchasi, 1 oylik",
-      "price": 6500,
-      "art": "art-4",
-      "section": "BEST"
+      "image1": "/uploads/img_9716.jpeg",
+      "image2": "/uploads/img_9715.webp",
+      "tag": "Vitamin",
+      "id": "m38"
     },
     {
-      "id": "m39",
-      "tag": "Toner",
+      "art": "art-1",
+      "section": "NEW",
+      "price": 205000,
       "name": "Axis-y Triple PDRN Gel Toner",
       "desc": "PDRN bilan uch bosqichli gel toner",
-      "price": 11500,
-      "art": "art-1",
-      "section": "NEW"
+      "image1": "/uploads/img_9656.jpeg",
+      "image2": "/uploads/img_9655.webp",
+      "tag": "Toner",
+      "id": "m39"
     },
     {
-      "id": "m40",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "EVENT",
+      "price": 45000,
       "name": "Anjo Spf",
       "desc": "Kunlik quyoshdan himoya vositasi",
-      "price": 2200,
-      "art": "art-2",
-      "section": "EVENT"
+      "image1": "/uploads/img_9657.jpeg",
+      "image2": "/uploads/img_9658.jpeg",
+      "tag": "SPF",
+      "id": "m40"
     },
     {
       "id": "m41",
