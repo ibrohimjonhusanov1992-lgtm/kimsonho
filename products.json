@@ -200,7 +200,7 @@
     {
       "art": "art-3",
       "section": "EVENT",
-      "price": 4800,
+      "price": 82000,
       "name": "Underarm 3D Under Arm",
       "desc": "Qo'ltiq osti terisi uchun parvarish vositasi",
       "image1": "/uploads/img_9758.webp",
@@ -211,7 +211,7 @@
     {
       "art": "art-4",
       "section": "NEW",
-      "price": 8200,
+      "price": 120000,
       "name": "Axis-y Serum",
       "desc": "Terini tiklovchi va namlantiruvchi seram",
       "image1": "/uploads/img_9646.jpeg",
@@ -222,7 +222,7 @@
     {
       "art": "art-1",
       "section": "BEST",
-      "price": 11000,
+      "price": 145000,
       "name": "celimax Retinol Shot Tightening Booster",
       "desc": "Retinol bilan terini taranglashtiruvchi buster, 15ml",
       "image1": "/uploads/img_9759.png",
@@ -233,7 +233,7 @@
     {
       "art": "art-2",
       "section": "NEW",
-      "price": 7000,
+      "price": 10000,
       "name": "Ronas CC Krem",
       "desc": "Teri rangini tenglashtiruvchi CC krem",
       "image1": "/uploads/img_9873.png",
@@ -244,7 +244,7 @@
     {
       "art": "art-3",
       "section": "NEW",
-      "price": 15500,
+      "price": 210000,
       "name": "Reedle Shot 100 Li Krem",
       "desc": "Faol moddalarni teriga singdiruvchi krem",
       "image1": "/uploads/img_9761.jpeg",
@@ -253,22 +253,26 @@
       "id": "m23"
     },
     {
-      "id": "m24",
-      "tag": "Tana",
-      "name": "Dezodarant Pushti Qizil",
-      "desc": "Kunlik dezodorant",
-      "price": 5000,
       "art": "art-4",
-      "section": "NEW"
+      "section": "NEW",
+      "price": 80000,
+      "name": "Dezodarant Pushti ",
+      "desc": "Kunlik dezodorant",
+      "image1": "/uploads/img_9897.webp",
+      "image2": "/uploads/img_9896.webp",
+      "tag": "Tana",
+      "id": "m24"
     },
     {
-      "id": "m25",
-      "tag": "SPF",
+      "art": "art-1",
+      "section": "NEW",
+      "price": 40000,
       "name": "Aestura SPF",
       "desc": "Sezgir teri uchun quyoshdan himoya",
-      "price": 2500,
-      "art": "art-1",
-      "section": "NEW"
+      "image1": "/uploads/img_9763.jpeg",
+      "image2": "/uploads/img_9764.webp",
+      "tag": "SPF",
+      "id": "m25"
     },
     {
       "id": "m26",
