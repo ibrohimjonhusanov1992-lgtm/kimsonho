@@ -35,6 +35,7 @@ collections:
           - label: Slaydlar
             name: items
             widget: list
+            summary: '{{fields.title}}'
             fields:
               - label: Nishon matni masalan YANGI yoki -10%
                 name: badge
@@ -95,6 +96,7 @@ collections:
           - label: Mahsulotlar
             name: items
             widget: list
+            summary: '{{fields.name}} — {{fields.tag}} — {{fields.price}} som'
             fields:
               - label: ID
                 name: id
