@@ -437,166 +437,200 @@
       "id": "m40"
     },
     {
-      "id": "m41",
-      "tag": "SPF",
+      "art": "art-3",
+      "section": "BEST",
+      "price": 42000,
       "name": "Secret Spf",
       "desc": "Terini quyoshdan himoya qiluvchi krem",
-      "price": 2200,
-      "art": "art-3",
-      "section": "BEST"
+      "image1": "/uploads/img_9900.jpeg",
+      "image2": "/uploads/img_9901.webp",
+      "tag": "SPF",
+      "id": "m41"
     },
     {
-      "id": "m42",
-      "tag": "Seram",
+      "art": "art-4",
+      "section": "NEW",
+      "price": 60000,
       "name": "Easy Mind Aqua Ampoule",
       "desc": "Namlantiruvchi suvli ampula",
-      "price": 4000,
-      "art": "art-4",
-      "section": "NEW"
+      "image1": "/uploads/img_9717.jpeg",
+      "image2": "/uploads/img_9718.jpeg",
+      "tag": "Seram",
+      "id": "m42"
     },
     {
-      "id": "m43",
-      "tag": "Krem",
+      "art": "art-1",
+      "section": "EVENT",
+      "price": 50000,
       "name": "J. Vita BB Krem",
       "desc": "Teri rangini tekislovchi BB krem",
-      "price": 2500,
-      "art": "art-1",
-      "section": "EVENT"
+      "image1": "/uploads/img_9719.jpeg",
+      "image2": "/uploads/img_9720.jpeg",
+      "tag": "Krem",
+      "id": "m43"
     },
     {
-      "id": "m44",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "BEST",
+      "price": 170000,
       "name": "Luvum Hyaluronic Moisture Sun Cream SPF",
       "desc": "Gialuron kislotali namlantiruvchi quyosh kremi",
-      "price": 12000,
-      "art": "art-2",
-      "section": "BEST"
+      "image1": "/uploads/img_9722.jpeg",
+      "image2": "/uploads/img_9721.webp",
+      "tag": "SPF",
+      "id": "m44"
     },
     {
-      "id": "m45",
-      "tag": "Krem",
+      "art": "art-3",
+      "section": "NEW",
+      "price": 200000,
       "name": "rejumella BB Krem",
       "desc": "Namlantiruvchi va tekislovchi BB krem",
-      "price": 15000,
-      "art": "art-3",
-      "section": "NEW"
+      "image1": "/uploads/img_9723.webp",
+      "image2": "/uploads/img_9724.jpeg",
+      "tag": "Krem",
+      "id": "m45"
     },
     {
       "id": "m46",
       "tag": "Krem",
       "name": "Anjo Pudra 21",
       "desc": "Yuzni matlashtiruvchi pudra, 21 rang",
-      "price": 3800,
+      "price": 55000,
       "art": "art-4",
-      "section": "EVENT"
+      "section": "EVENT",
+      "image1": "/uploads/img_9726.jpeg"
     },
     {
-      "id": "m47",
-      "tag": "Vitamin",
+      "art": "art-1",
+      "section": "BEST",
+      "price": 166000,
       "name": "Hurum Collagen Qizil 2 oylik",
       "desc": "Kollagen qo'shimchasi, 2 oylik",
-      "price": 11000,
-      "art": "art-1",
-      "section": "BEST"
+      "image1": "/uploads/img_9728.jpeg",
+      "image2": "/uploads/img_9729.png",
+      "tag": "Vitamin",
+      "id": "m47"
     },
     {
-      "id": "m48",
-      "tag": "Krem",
+      "art": "art-2",
+      "section": "NEW",
+      "price": 68000,
       "name": "Avelium Collagenli Krem",
       "desc": "Kollagenli elastiklik beruvchi krem",
-      "price": 3500,
-      "art": "art-2",
-      "section": "NEW"
+      "image1": "/uploads/img_9730.jpeg",
+      "image2": "/uploads/img_9731.jpeg",
+      "tag": "Krem",
+      "id": "m48"
     },
     {
       "id": "m49",
       "tag": "Niqob",
       "name": "Easy mind Maska Collagen",
       "desc": "Kollagenli tiklovchi niqob",
-      "price": 2500,
+      "price": 7000,
       "art": "art-3",
-      "section": "EVENT"
+      "section": "EVENT",
+      "image1": "/uploads/img_9665.jpeg"
     },
     {
-      "id": "m50",
-      "tag": "Krem",
+      "art": "art-4",
+      "section": "BEST",
+      "price": 140000,
       "name": "Axis-y Krem",
       "desc": "Terini namlantiruvchi va tiklovchi krem",
-      "price": 9800,
-      "art": "art-4",
-      "section": "BEST"
+      "image1": "/uploads/img_9732.webp",
+      "image2": "/uploads/img_9733.png",
+      "tag": "Krem",
+      "id": "m50"
     },
     {
-      "id": "m51",
-      "tag": "Seram",
+      "art": "art-1",
+      "section": "NEW",
+      "price": 160000,
       "name": "Axis-y TXA 2.5%",
       "desc": "Traneksam kislotali dog'larga qarshi seram",
-      "price": 11500,
-      "art": "art-1",
-      "section": "NEW"
+      "image1": "/uploads/img_9652.jpeg",
+      "image2": "/uploads/img_9654.webp",
+      "tag": "Seram",
+      "id": "m51"
     },
     {
-      "id": "m52",
-      "tag": "Toner",
+      "art": "art-2",
+      "section": "EVENT",
+      "price": 105000,
       "name": "Anua Heartleaf 77% Soothing Toner 250ml",
       "desc": "Heartleaf 77% tinchlantiruvchi toner, 250ml",
-      "price": 6500,
-      "art": "art-2",
-      "section": "EVENT"
+      "image1": "/uploads/img_9741.jpeg",
+      "image2": "/uploads/img_9740.jpeg",
+      "tag": "Toner",
+      "id": "m52"
     },
     {
-      "id": "m53",
-      "tag": "Niqob",
+      "art": "art-3",
+      "section": "BEST",
+      "price": 155000,
       "name": "Welderma Maska",
       "desc": "Terini parvarish qiluvchi niqob",
-      "price": 10500,
-      "art": "art-3",
-      "section": "BEST"
+      "image1": "/uploads/img_9735.jpeg",
+      "image2": "/uploads/img_9736.jpeg",
+      "tag": "Niqob",
+      "id": "m53"
     },
     {
-      "id": "m54",
-      "tag": "Niqob",
+      "art": "art-4",
+      "section": "NEW",
+      "price": 170000,
       "name": "Lalarecipe VITA Melting Gel Mask",
       "desc": "Vitaminli eruvchi gel niqob",
-      "price": 12000,
-      "art": "art-4",
-      "section": "NEW"
+      "image1": "/uploads/img_9672.jpeg",
+      "image2": "/uploads/img_9671.jpeg",
+      "tag": "Niqob",
+      "id": "m54"
     },
     {
-      "id": "m55",
-      "tag": "Tozalash",
+      "art": "art-1",
+      "section": "EVENT",
+      "price": 160000,
       "name": "celimax Noni Acne Cleanser",
       "desc": "Noni ekstraktli akne teri uchun tozalovchi",
-      "price": 10000,
-      "art": "art-1",
-      "section": "EVENT"
+      "image1": "/uploads/img_9673.webp",
+      "image2": "/uploads/img_9674.webp",
+      "tag": "Tozalash",
+      "id": "m55"
     },
     {
-      "id": "m56",
-      "tag": "SPF",
+      "art": "art-2",
+      "section": "BEST",
+      "price": 150000,
       "name": "Joseon Spf Ko'k",
       "desc": "Kunlik quyoshdan himoya kremi",
-      "price": 10000,
-      "art": "art-2",
-      "section": "BEST"
+      "image1": "/uploads/img_9676.jpeg",
+      "image2": "/uploads/img_9675.webp",
+      "tag": "SPF",
+      "id": "m56"
     },
     {
-      "id": "m57",
-      "tag": "Krem",
+      "art": "art-3",
+      "section": "NEW",
+      "price": 135000,
       "name": "Shea butter",
       "desc": "Shi yog'i asosidagi namlantiruvchi krem",
-      "price": 8000,
-      "art": "art-3",
-      "section": "NEW"
+      "image1": "/uploads/img_9739.webp",
+      "image2": "/uploads/img_9738.jpeg",
+      "tag": "Krem",
+      "id": "m57"
     },
     {
-      "id": "m58",
-      "tag": "Toplam",
+      "art": "art-4",
+      "section": "EVENT",
+      "price": 430000,
       "name": "anua PDRN + Hyaluron Capsul Mist Set",
       "desc": "PDRN va gialuronli kapsulali mist to'plami",
-      "price": 31500,
-      "art": "art-4",
-      "section": "EVENT"
+      "image1": "/uploads/img_9741.jpeg",
+      "image2": "/uploads/img_9740.jpeg",
+      "tag": "Toplam",
+      "id": "m58"
     },
     {
       "id": "m59",
