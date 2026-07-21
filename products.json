@@ -893,6 +893,28 @@
       "image3": "/uploads/img_9844.webp",
       "tag": "skin",
       "id": "m81"
+    },
+    {
+      "art": "art-2",
+      "section": "BEST",
+      "price": 220000,
+      "name": "Lagom mini nabor",
+      "desc": "Lagom mini nabor quru va normal yuzlar uchun ",
+      "image1": "/uploads/img_9909.webp",
+      "image2": "/uploads/img_9908.webp",
+      "tag": "toner",
+      "id": "m82"
+    },
+    {
+      "art": "art-4",
+      "section": "NEW",
+      "price": 165000,
+      "name": "Lagom tone up",
+      "desc": "LAGOM Tone Up Sun SPF50+ PA++++, 40 ml — yuz uchun SPF krem",
+      "image1": "/uploads/img_9911.jpeg",
+      "image2": "/uploads/img_9910.webp",
+      "tag": "toner",
+      "id": "m83"
     }
   ]
 }
