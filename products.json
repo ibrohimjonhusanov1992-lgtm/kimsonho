@@ -45,7 +45,7 @@
     },
     {
       "art": "art-2",
-      "section": "NEW",
+      "section": "BEST",
       "price": 150000,
       "name": "roundlab Sprey Mistlik SPF",
       "desc": "Quyoshdan himoya qiluvchi sprey-mist",
@@ -91,7 +91,7 @@
     },
     {
       "art": "art-1",
-      "section": "BEST",
+      "section": "EVENT",
       "price": 35000,
       "name": "Canemazole Svecha",
       "desc": "Terini tozalovchi maxsus vosita",
@@ -107,12 +107,12 @@
       "desc": "Bolalar uchun multivitamin qo'shimchasi",
       "price": 116000,
       "art": "art-2",
-      "section": "BEST",
+      "section": "EVENT",
       "image1": "/uploads/img_9776.jpeg"
     },
     {
       "art": "art-3",
-      "section": "BEST",
+      "section": "EVENT",
       "price": 165000,
       "name": "Naturalize Omega 3",
       "desc": "Omega-3 yog' kislotalari qo'shimchasi",
@@ -145,7 +145,7 @@
     },
     {
       "art": "art-2",
-      "section": "NEW",
+      "section": "BEST",
       "price": 160000,
       "name": "roundlab Brich Juice Sun Cushion",
       "desc": "Qayin suvli quyoshdan himoya kushioni",
@@ -210,7 +210,7 @@
     },
     {
       "art": "art-4",
-      "section": "NEW",
+      "section": "BEST",
       "price": 120000,
       "name": "Axis-y Serum",
       "desc": "Terini tiklovchi va namlantiruvchi seram",
@@ -231,9 +231,10 @@
       "id": "m21"
     },
     {
+      "discount": 5,
       "art": "art-2",
-      "section": "NEW",
-      "price": 10000,
+      "section": "TIMESALE",
+      "price": 110000,
       "name": "Ronas CC Krem",
       "desc": "Teri rangini tenglashtiruvchi CC krem",
       "image1": "/uploads/img_9873.png",
@@ -339,7 +340,7 @@
     },
     {
       "art": "art-4",
-      "section": "EVENT",
+      "section": "BEST",
       "price": 125000,
       "name": "Axis-y Ko'z Krem",
       "desc": "Ko'z atrofi terisi uchun parvarish kremi",
@@ -426,9 +427,10 @@
       "id": "m39"
     },
     {
+      "discount": 5,
       "art": "art-2",
-      "section": "EVENT",
-      "price": 45000,
+      "section": "TIMESALE",
+      "price": 50000,
       "name": "Anjo Spf",
       "desc": "Kunlik quyoshdan himoya vositasi",
       "image1": "/uploads/img_9657.jpeg",
