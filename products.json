@@ -766,9 +766,9 @@
       "id": "m70"
     },
     {
-      "discount": 5,
+      "discount": 10,
       "art": "art-2",
-      "section": "BEST",
+      "section": "TIMESALE",
       "price": 30000,
       "name": "Noni ampoule mask ",
       "desc": "maska",
@@ -778,9 +778,9 @@
       "id": "m71"
     },
     {
-      "discount": 5,
+      "discount": 10,
       "art": "art-3",
-      "section": "BEST",
+      "section": "TIMESALE",
       "price": 30000,
       "name": "poke+Dark spot      Brightenning serum mask",
       "desc": "maska",
@@ -790,9 +790,9 @@
       "id": "m72"
     },
     {
-      "discount": 5,
+      "discount": 10,
       "art": "art-4",
-      "section": "BEST",
+      "section": "TIMESALE",
       "price": 30000,
       "name": "Cica serum mask",
       "desc": "maska",
