@@ -67,7 +67,7 @@
     },
     {
       "art": "art-3",
-      "section": "BEST",
+      "section": "NEW",
       "price": 100000,
       "name": "Avelium Retinol Ko'z Krem",
       "desc": "Retinol bilan ko'z atrofi terisi uchun yoshartiruvchi krem",
@@ -123,7 +123,7 @@
     },
     {
       "art": "art-4",
-      "section": "BEST",
+      "section": "EVENT",
       "price": 65000,
       "name": "Melosso Aqua Cream",
       "desc": "Namlikni ta'minlovchi yengil suvli krem",
