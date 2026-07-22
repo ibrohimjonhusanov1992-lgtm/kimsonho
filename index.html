@@ -44,23 +44,29 @@
 
   /* LOGO MARK */
   .logo-lockup{display:flex; align-items:center; gap:10px;}
-  .logo-mark{width:40px; height:28px; position:relative; flex-shrink:0;}
-  .logo-mark .crescent{position:absolute; top:0; width:28px; height:28px; border-radius:50%;}
-  .logo-mark .crescent-1{right:0; background:var(--lime);}
-  .logo-mark .crescent-2{left:0;  background:var(--lime-deep);}
-  .logo-mark.large{width:92px; height:64px;}
-  .logo-mark.large .crescent{width:64px; height:64px;}
+  /* Brend belgisi: to'q yashil doira + oldidan chiqib turgan ingichka yangi oy */
+  .logo-mark{width:39px; height:34px; position:relative; flex-shrink:0;}
+  .logo-mark .crescent{position:absolute; top:0; width:34px; height:34px; border-radius:50%;}
+  .logo-mark .crescent-1{left:5px; background:#fff;}               /* orqadagi doira -> yangi oy */
+  .logo-mark .crescent-2{left:0;   background:var(--lime-deep);}  /* oldidagi doira */
+  .logo-mark.large{width:90px; height:78px;}
+  .logo-mark.large .crescent{width:78px; height:78px;}
+  .logo-mark.large .crescent-1{left:12px;}
+  /* Oq fon (yon menyu) uchun oy lime rangda */
+  .menu-header .logo-mark .crescent-1{background:var(--lime);}
+  .logo-mark.large .crescent-2{left:0;}
 
   /* NAV */
   nav{
     position:sticky; top:0; z-index:50;
     display:flex; justify-content:space-between; align-items:center;
-    padding:20px 6vw;
-    background:rgba(247,245,239,0.9);
-    backdrop-filter:blur(8px);
-    border-bottom:1px solid rgba(61,90,76,0.12);
+    padding:16px 6vw;
+    background:var(--lime);
+    border-bottom:none;
   }
   .logo{font-family:'Marcellus',serif; font-size:22px; letter-spacing:2px; color:var(--jade);}
+  nav .logo{color:#fff;}
+  nav .menu-btn span{background:#fff;}
   .nav-cta{
     background:var(--jade); color:var(--porcelain); padding:10px 20px;
     border-radius:2px; font-size:13px; letter-spacing:1px;
@@ -450,14 +456,14 @@
   /* CART */
   .cart-btn{
     position:relative;
-    background:var(--jade); color:var(--porcelain); border:none;
+    background:#fff; color:var(--lime-deep); border:none;
     width:42px; height:42px; border-radius:50%;
     cursor:pointer; display:flex; align-items:center; justify-content:center;
   }
 
   /* SEARCH */
   .search-btn{
-    background:none; border:1.5px solid rgba(61,90,76,0.25); color:var(--jade);
+    background:none; border:1.5px solid rgba(255,255,255,0.7); color:#fff;
     width:42px; height:42px; border-radius:50%;
     cursor:pointer; display:flex; align-items:center; justify-content:center;
   }
