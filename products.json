@@ -915,6 +915,91 @@
       "image2": "/uploads/img_9911.jpeg",
       "tag": "SPF",
       "id": "m83"
+    },
+    {
+      "art": "art-3",
+      "section": "BEST",
+      "price": 40000,
+      "name": "Aloe vera gel 100%",
+      "desc": "Aloe vega geli 100%",
+      "image1": "/uploads/img_9996.png",
+      "image2": "/uploads/img_9995.jpeg",
+      "tag": "cream",
+      "id": "m84"
+    },
+    {
+      "section": "NEW",
+      "id": "m85",
+      "tag": "penka",
+      "name": "Green tea foam cleansing",
+      "desc": "Nozik terini tinchlantiradi va antioksidantlar bilan ta'minlaydi",
+      "price": 80000,
+      "art": "art-4",
+      "image1": "/uploads/img_0002.jpeg"
+    },
+    {
+      "art": "art-3",
+      "section": "EVENT",
+      "price": 100000,
+      "name": "All-in-One Nutritional Snail Cream",
+      "desc": "Charchagan terini oziqlantiradi va yumshoq tuzilishni qo'llab-quvvatlaydi.",
+      "image1": "/uploads/img_9998.webp",
+      "image2": "/uploads/img_9997.png",
+      "tag": "krem",
+      "id": "m86"
+    },
+    {
+      "art": "art-3",
+      "section": "EVENT",
+      "price": 180000,
+      "name": "NONI serum",
+      "desc": "Terining gidro-balansini tiklaydi va quruqlikni yo‘qotadi",
+      "image1": "/uploads/img_9988.jpeg",
+      "image2": "/uploads/img_9987.webp",
+      "tag": "seram",
+      "id": "m87"
+    },
+    {
+      "art": "art-1",
+      "section": "BEST",
+      "price": 180000,
+      "name": "Noni Mist",
+      "desc": "Qizarish va tirnash xususiyati beruvchi moddalarni tinchlantirish uchun vitaminlar va antioksidantlarga boy.",
+      "image1": "/uploads/img_9985.webp",
+      "image2": "/uploads/img_9986.webp",
+      "tag": " mist",
+      "id": "m87"
+    },
+    {
+      "art": "art-3",
+      "section": "BEST",
+      "price": 230000,
+      "name": "Noni Lotion",
+      "desc": "Bo'g'imlarning qattiqlashishi, mushaklarning spazmlari va artritni davolash uchun noni bilan birga kamfora va mentol kabi faol moddalarni o'z ichiga oladi.",
+      "image1": "/uploads/img_9983.jpeg",
+      "image2": "/uploads/img_9984.webp",
+      "tag": "lotion",
+      "id": "m88"
+    },
+    {
+      "section": "EVENT",
+      "id": "m88",
+      "tag": "krem",
+      "name": "Collagen Spot Remover",
+      "desc": "Gidrolizlangan kollagen terini namlaydi va namlik to'sig'ini mustahkamlaydi",
+      "price": 80000,
+      "art": "art-4",
+      "image1": "/uploads/img_9982.jpeg"
+    },
+    {
+      "section": "NEW",
+      "id": "m89",
+      "tag": "skin",
+      "name": "Hyaluronic Acid Balancing Skincare Set",
+      "desc": "Ko'p vaznli gialuron kislotasi molekulalari mayda ajinlarni to'ldirish uchun terining turli qatlamlariga suv tortadi",
+      "price": 210000,
+      "art": "art-4",
+      "image1": "/uploads/img_9981.jpeg"
     }
   ]
 }
