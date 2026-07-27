@@ -1000,6 +1000,70 @@
       "price": 210000,
       "art": "art-4",
       "image1": "/uploads/img_9981.jpeg"
+    },
+    {
+      "art": "art-4",
+      "section": "BEST",
+      "price": 40000,
+      "name": "Hand Perfume Portugal",
+      "desc": "70 ml alyuminiy naychalarda sotiladigan yuqori sifatli, yuqori hidli \"qo'l atirlari\" kremi.",
+      "image1": "/uploads/img_9980.jpeg",
+      "image2": "/uploads/img_9979.jpeg",
+      "tag": "krem",
+      "id": "m90"
+    },
+    {
+      "art": "art-1",
+      "section": "BEST",
+      "price": 80000,
+      "name": "Deep-red+ Moisture cream",
+      "desc": "Deep Red Moisture Cream - bu namlik muvozanatini saqlash uchun Beta-glyukan va Trehaloza qo'shilgan yog'siz, polisaxaridli namlovchi krem.",
+      "image1": "/uploads/img_9977.png",
+      "image2": "/uploads/img_9978.png",
+      "tag": "krem",
+      "id": "m91"
+    },
+    {
+      "section": "NEW",
+      "id": "m92",
+      "tag": "krem",
+      "name": "Pure & Aga",
+      "desc": "quruq, dag'allashgan va yorilib ketgan tovonlar uchun maxsus 100 grammli oyoq essensiyasi-kremi.",
+      "price": 40000,
+      "art": "art-3",
+      "image1": "/uploads/img_9976.webp"
+    },
+    {
+      "art": "art-3",
+      "section": "NEW",
+      "price": 50000,
+      "name": "Melatoning Vitamin A Whitening Cream",
+      "desc": "Qora dog'lar, giperpigmentatsiya va notekis teri ranglariga qarshi kurashadi.",
+      "image1": "/uploads/img_9974.jpeg",
+      "image2": "/uploads/img_9975.jpeg",
+      "tag": "krem",
+      "id": "m93"
+    },
+    {
+      "art": "art-3",
+      "section": "NEW",
+      "price": 60000,
+      "name": "musinso stondoro BEAUTY perfect clear cleansing foam",
+      "desc": "Teshiklarni tozalash va yog' va o'lik terini olib tashlash uchun 0,5% salitsil kislotasi mavjud.",
+      "image1": "/uploads/img_9972.webp",
+      "image2": "/uploads/img_9973.webp",
+      "tag": "cleanser",
+      "id": "m94"
+    },
+    {
+      "section": "BEST",
+      "id": "m95",
+      "tag": "spf",
+      "name": "Putt On Sun Block",
+      "desc": "Yengil kremsi tuzilishga ega va choy daraxti va aloe vera bilan tinchlantiruvchi formulaga ega.",
+      "price": 130000,
+      "art": "art-4",
+      "image1": "/uploads/img_9970.jpeg"
     }
   ]
 }
