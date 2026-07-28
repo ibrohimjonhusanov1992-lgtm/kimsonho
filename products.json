@@ -372,6 +372,7 @@
       "id": "m34"
     },
     {
+      "discount": 10,
       "art": "art-1",
       "section": "BEST",
       "price": 7000,
@@ -526,14 +527,15 @@
       "id": "m48"
     },
     {
-      "id": "m49",
-      "tag": "Niqob",
-      "name": "Easy mind Maska Collagen",
-      "desc": "Kollagenli tiklovchi niqob",
-      "price": 7000,
+      "discount": 10,
       "art": "art-3",
       "section": "EVENT",
-      "image1": "/uploads/img_9665.jpeg"
+      "price": 7000,
+      "name": "Easy mind Maska Collagen",
+      "desc": "Kollagenli tiklovchi niqob",
+      "image1": "/uploads/img_9665.jpeg",
+      "tag": "Niqob",
+      "id": "m49"
     },
     {
       "art": "art-4",
@@ -711,6 +713,7 @@
       "image1": "/uploads/img_9660.jpeg"
     },
     {
+      "discount": 10,
       "art": "art-4",
       "section": "NEW",
       "price": 7000,
@@ -732,14 +735,15 @@
       "image1": "/uploads/img_9667.jpeg"
     },
     {
-      "id": "m68",
-      "tag": "Niqob",
-      "name": "Easy mind Tea Tree Maska",
-      "desc": "Choy daraxti bilan akne teri uchun niqob",
-      "price": 7000,
+      "discount": 10,
       "art": "art-2",
       "section": "BEST",
-      "image1": "/uploads/img_9666.jpeg"
+      "price": 7000,
+      "name": "Easy mind Tea Tree Maska",
+      "desc": "Choy daraxti bilan akne teri uchun niqob",
+      "image1": "/uploads/img_9666.jpeg",
+      "tag": "Niqob",
+      "id": "m68"
     },
     {
       "discount": 5,
