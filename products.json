@@ -1064,6 +1064,17 @@
       "price": 130000,
       "art": "art-4",
       "image1": "/uploads/img_9970.jpeg"
+    },
+    {
+      "discount": 5,
+      "art": "art-2",
+      "section": "BEST",
+      "price": 190000,
+      "name": "Lalarecipe",
+      "desc": "xira teri rangini yorqinlashtiradi va unga tetiklik baxsh etadigan oqartiruvchi va yorqinlashtiruvchi liniya.",
+      "image1": "/uploads/img_0017.jpeg",
+      "tag": "penka",
+      "id": "m96"
     }
   ]
 }
